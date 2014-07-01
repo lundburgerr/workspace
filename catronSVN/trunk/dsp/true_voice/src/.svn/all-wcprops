@@ -1,0 +1,113 @@
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/catronSvn/!svn/ver/387/trunk/dsp/true_voice/src
+END
+dumpdata.c
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/catronSvn/!svn/ver/284/trunk/dsp/true_voice/src/dumpdata.c
+END
+directive_audio.c
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/catronSvn/!svn/ver/379/trunk/dsp/true_voice/src/directive_audio.c
+END
+lec_general.c
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/catronSvn/!svn/ver/374/trunk/dsp/true_voice/src/lec_general.c
+END
+interface.c
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/catronSvn/!svn/ver/386/trunk/dsp/true_voice/src/interface.c
+END
+timers.c
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/catronSvn/!svn/ver/298/trunk/dsp/true_voice/src/timers.c
+END
+lec.c
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/catronSvn/!svn/ver/345/trunk/dsp/true_voice/src/lec.c
+END
+true_voice.c
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/catronSvn/!svn/ver/382/trunk/dsp/true_voice/src/true_voice.c
+END
+volume.c
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/catronSvn/!svn/ver/379/trunk/dsp/true_voice/src/volume.c
+END
+pilot_switch.c
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/catronSvn/!svn/ver/386/trunk/dsp/true_voice/src/pilot_switch.c
+END
+subband.c
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/catronSvn/!svn/ver/337/trunk/dsp/true_voice/src/subband.c
+END
+plot.c
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/catronSvn/!svn/ver/348/trunk/dsp/true_voice/src/plot.c
+END
+mixer.c
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/catronSvn/!svn/ver/379/trunk/dsp/true_voice/src/mixer.c
+END
+lec2.c
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/catronSvn/!svn/ver/345/trunk/dsp/true_voice/src/lec2.c
+END
+lec3.c
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/catronSvn/!svn/ver/345/trunk/dsp/true_voice/src/lec3.c
+END
+empty_file_template.c
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/catronSvn/!svn/ver/7/trunk/dsp/true_voice/src/empty_file_template.c
+END
+noise_reduction.c
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/catronSvn/!svn/ver/387/trunk/dsp/true_voice/src/noise_reduction.c
+END
+dtmf.c
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/catronSvn/!svn/ver/350/trunk/dsp/true_voice/src/dtmf.c
+END
+agc.c
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/catronSvn/!svn/ver/349/trunk/dsp/true_voice/src/agc.c
+END

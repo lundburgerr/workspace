@@ -1,0 +1,12 @@
+In the MIPS32 architecture, all machine code instructions are represented as 32-bit instructions.
+The goal of this lab is to write a \emph{disassembler} in \emph{C} that turns these machine code instructions into MIPS32 assembly language.
+The program should read a file as input that contains the instructions in decimal or hexadecimal---one in each row---for the MIPS32-program. For every line in the machine code file; the disassembler should output a line that contains the following:
+\begin{itemize}
+\item the original instruction.
+\item the type of instruction.
+\item the values for relevant fields for that type of instruction in both decimal and hexadecimal.
+\item and the mnemonic representation.
+\end{itemize}
+
+The disassembler should handle all instructions, except floating point instructions.
+If the instruction is not valid the program should output relevant information for that line.

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cHelpSettings>
+<project name="DSP_BSL">
+<provider id="RTSCHelpProvider">
+<book enabled="true" title="RTSC Content"/>
+</provider>
+</project>
+<project name="DSP eXp LCD Touch Test">
+<provider id="RTSCHelpProvider">
+<book enabled="true" title="RTSC Content"/>
+</provider>
+</project>
+<project name="ARM eXp UART Test">
+<provider id="RTSCHelpProvider">
+<book enabled="true" title="RTSC Content"/>
+</provider>
+</project>
+</cHelpSettings>

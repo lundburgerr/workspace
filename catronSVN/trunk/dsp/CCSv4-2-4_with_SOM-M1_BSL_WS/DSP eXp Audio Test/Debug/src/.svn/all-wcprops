@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/catronSvn/!svn/ver/253/trunk/dsp/CCSv4-2-4_with_SOM-M1_BSL_WS/DSP%20eXp%20Audio%20Test/Debug/src
+END
+subdir.mk
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/catronSvn/!svn/ver/253/trunk/dsp/CCSv4-2-4_with_SOM-M1_BSL_WS/DSP%20eXp%20Audio%20Test/Debug/src/subdir.mk
+END
+ccsSrcs.opt
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/catronSvn/!svn/ver/253/trunk/dsp/CCSv4-2-4_with_SOM-M1_BSL_WS/DSP%20eXp%20Audio%20Test/Debug/src/ccsSrcs.opt
+END
+subdir_rules.mk
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/catronSvn/!svn/ver/253/trunk/dsp/CCSv4-2-4_with_SOM-M1_BSL_WS/DSP%20eXp%20Audio%20Test/Debug/src/subdir_rules.mk
+END
+subdir_vars.mk
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/catronSvn/!svn/ver/253/trunk/dsp/CCSv4-2-4_with_SOM-M1_BSL_WS/DSP%20eXp%20Audio%20Test/Debug/src/subdir_vars.mk
+END

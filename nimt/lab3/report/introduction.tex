@@ -1,0 +1,16 @@
+%1. The problem in general: determine velocities
+The main issue in this lab is how to measure the velocity of a moving object in a non-invasive manner.
+%2. Describe how laser ToF works
+This can be solved by using a laser \emph{time of flight} (ToF) method where two light sensors are aimed at by two different laser beams which are separated by a known distance. When an object crosses these laser beams; light sensors will register these events. Knowing the difference in time between these events for both sensors and the spatial distance between them---you can calculate the velocity.
+
+%3. How good is laser ToF today? accuracy etc. and limitations
+The accuracy of the laser ToF method is largely limited by the sensitivity of the light sensor and 
+the sampling frequency of the \emph{analog to digital converter} (ADC).
+It is also limited by how small the distance between the laser beams is, and by the calibration method that is used to determine this distance.
+
+%4. Other applications
+%TODO
+
+%6. Our specific problem
+The goal of this lab was to measure the decay of energy of a pendulum using this laser ToF method.
+The pendulum has two sources of energy loss: friction and air drag. We examined the characteristics of both these contributions by a comparison of the measured data with a theoretical model.

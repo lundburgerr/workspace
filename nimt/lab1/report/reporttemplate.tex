@@ -1,0 +1,111 @@
+\documentclass[a4paper]{article}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage[english]{babel}
+\usepackage{fancyhdr}
+\usepackage{graphicx}
+
+
+%For subfigures
+\usepackage{caption}
+\usepackage{subcaption}
+
+%For FloatBarrier
+\usepackage{placeins}
+
+
+\let\oldAuthor\author
+\renewcommand{\author}[1]{\newcommand{\myAuthor}{#1}\oldAuthor{#1}} 
+\begin{document}
+%---------------------------------------------------------
+%Fill in:
+%1. Title of lab. 
+%2. Student names and corresponding Email addresses. If many separate 
+%---------------------------------------------------------
+\title{Detection of Vibrations by Triangulation}
+\author{Robin Lundberg (rolu0008@student.umu.se) \\ 
+				Jonas Sandqvist (s4nk13@gmail.com) \\
+				Robert Cordts (robert.cordts@posteo.de)}
+\date{} %<-- \usepackage{amssymb, graphicx, fancyheadings} LEAVE EMPTY! 
+\begin{titlepage}
+\maketitle 
+%---------------------------------------------------------
+%Fill in:
+%1. Course name
+%2. Supervisor name(s), if many separate them by comma.
+%---------------------------------------------------------
+\thispagestyle{fancy}
+\headheight 20pt 
+\lhead{\small Department of Physics \\ Ume\aa\ University}
+\rhead{\small\today}
+\cfoot{Non-Invasive Measurement Techniques \\ Supervisors: Aleksandra Foltynowicz-Matyba, Bertil Sundqvist, Isak Silander, Patrick Ehlers, Amir Khodabakhsh}
+\begin{abstract}
+	\input{abstract}
+\end{abstract}
+\end{titlepage}
+\pagestyle{fancy}
+\headheight 35pt 
+\rhead{\small\today}
+\lhead{\myAuthor}
+\cfoot{\thepage}
+
+%\tableofcontents
+
+\newpage
+\section{Introduction}
+\input{introduction}
+
+
+\FloatBarrier
+\section{Theory}
+\input{theory}
+
+\FloatBarrier
+\section{Experimental}
+\input{experimental}
+
+\FloatBarrier
+\section{Results}
+\input{results}
+
+\FloatBarrier
+\section{Discussion}
+\input{discussion}
+
+\FloatBarrier
+%\section{Conclusions}
+%\input{conclusions}
+
+%\begin{appendix}
+%
+%\section{Appendix section 1}
+%%Here you can put additional data of importance Labview or Matlab codes,
+%%additional equations and derivations etc.
+%%Do not add long tables of raw data. 
+%%
+%%For programming code like Matlab you need to use a font where 
+%%all letters are equally wide. Use the verbatim environment.
+%%
+%%\begin{verbatim}
+%%	Paste code here! 
+%%\end{verbatim}
+%
+%\section{Appendix section 2} 
+%	
+%\end{appendix}
+
+\bibliographystyle{plain}
+
+\begin{thebibliography}{99}
+	%Vink, G. E., Morgan, W. J., and Vogt, P. R., 1985, The Earth's hot spots, Scientific American, v. 252, p. 50- 57.
+	\bibitem{Franca05} Franca, J.G.D.M.; Gazziro, M.A.; Ide, A.N.; Saito, J.H.; 2005, A 3D scanning system based on laser triangulation and variable field of view, \emph{IEEE International Conference On Image Processing}, v.1 p.859-866.
+	
+	\bibitem{Matthies97} Matthies, L., Balch, T. and Wilcox, B, 1997, Fast optical hazard detection for planetary rovers using multiple spot laser triangulation, \emph{IEEE International Conference On Robotics And Automation}, I-425-8.
+
+	\bibitem{Okkerse00} Okkerse W.J.H., Ottengraf S.P.P., Osinga-Kuipers B., 2000, Biofilm thickness variability investigated with a laser triangulation sensor, \emph{Biotechnology and Bioengineering} v.70 p.619-629.	
+	%\bibitem{ref2} author1 and author2, Book title, Publisher, Country, (year) . 
+\end{thebibliography}
+
+
+
+\end{document}

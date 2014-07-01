@@ -1,0 +1,40 @@
+/*
+ * main.c
+ *
+ *  Created on: Oct 25, 2013
+ *      Author: lundburgerr
+ */
+
+#include <stdlib.h>
+#include <stdio.h>
+#include <pthread.h>
+
+#include <sys/time.h>
+
+typedef struct arg_p{
+	char *msg;
+	int val;
+} arg_p;
+
+arg_p arg;
+
+void *printMe(void *arg);
+int main(int argc, char *argv[]){
+	pthread_t thread1;
+
+	arg.msg = "HEJSAN";
+	arg.val = 2;
+
+	pthread_create(&thread1, NULL, printMe, (void*)&arg);
+	pthread_join(thread1,NULL);
+	printf("Done\n");
+
+	return EXIT_SUCCESS;
+}
+
+void *printMe(void *arg){
+	arg_p *a = (arg_p*)arg;
+	char *msg = (char*) a->msg;
+	int val = a->val;
+	printf("%s %d\n", msg, val);
+}

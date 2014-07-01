@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/catronSvn/!svn/ver/253/trunk/dsp/CCSv4-2-4_with_SOM-M1_BSL_WS/DSP%20eXp%20Audio%20Test/Debug
+END
+subdir_rules.mk
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/catronSvn/!svn/ver/253/trunk/dsp/CCSv4-2-4_with_SOM-M1_BSL_WS/DSP%20eXp%20Audio%20Test/Debug/subdir_rules.mk
+END
+sources.mk
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/catronSvn/!svn/ver/253/trunk/dsp/CCSv4-2-4_with_SOM-M1_BSL_WS/DSP%20eXp%20Audio%20Test/Debug/sources.mk
+END
+subdir_vars.mk
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/catronSvn/!svn/ver/253/trunk/dsp/CCSv4-2-4_with_SOM-M1_BSL_WS/DSP%20eXp%20Audio%20Test/Debug/subdir_vars.mk
+END
+makefile
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/catronSvn/!svn/ver/253/trunk/dsp/CCSv4-2-4_with_SOM-M1_BSL_WS/DSP%20eXp%20Audio%20Test/Debug/makefile
+END
+subdir.mk
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/catronSvn/!svn/ver/253/trunk/dsp/CCSv4-2-4_with_SOM-M1_BSL_WS/DSP%20eXp%20Audio%20Test/Debug/subdir.mk
+END
+objects.mk
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/catronSvn/!svn/ver/253/trunk/dsp/CCSv4-2-4_with_SOM-M1_BSL_WS/DSP%20eXp%20Audio%20Test/Debug/objects.mk
+END
+DSPeXpAudioTest.map
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/catronSvn/!svn/ver/253/trunk/dsp/CCSv4-2-4_with_SOM-M1_BSL_WS/DSP%20eXp%20Audio%20Test/Debug/DSPeXpAudioTest.map
+END
+ccsSrcs.opt
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/catronSvn/!svn/ver/253/trunk/dsp/CCSv4-2-4_with_SOM-M1_BSL_WS/DSP%20eXp%20Audio%20Test/Debug/ccsSrcs.opt
+END
+ccsObjs.opt
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/catronSvn/!svn/ver/253/trunk/dsp/CCSv4-2-4_with_SOM-M1_BSL_WS/DSP%20eXp%20Audio%20Test/Debug/ccsObjs.opt
+END

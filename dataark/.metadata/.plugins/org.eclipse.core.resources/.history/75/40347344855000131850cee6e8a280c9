@@ -1,0 +1,35 @@
+/*
+ * main.h
+ *
+ *  Created on: Nov 18, 2013
+ *      Author: lundburgerr
+ */
+
+#ifndef MAIN_H_
+#define MAIN_H_
+
+#define INSTRUCTION_LENGTH 32
+
+enum format{R, I, J, INVALIDOP};
+
+struct funccode_t{
+	int funcnum;
+	char name[];
+};
+struct opcode_t{
+	struct funccode_t func[];
+	enum format type;
+};
+
+char registers[32][] = {"$zero", "$at", "$v0", "$v1", "$a0", "$a1", "$a2", "$a0", \
+		"$t0", "$t1", "$t2", "$t3", "$t4", "$t5", "$t6", "$t7", \
+		"$s0", "$s0", "$s0", "$s0", "$s0", "$s0", "$s0", "$s0", \
+		"$t8", "$t9", "$k0", "$k1", "$gp", "$sp", "$fp", "$ra", };
+int opmap[] = {0, 1, ..};
+struct opcode_t operations[] =
+{
+
+};
+
+
+#endif /* MAIN_H_ */

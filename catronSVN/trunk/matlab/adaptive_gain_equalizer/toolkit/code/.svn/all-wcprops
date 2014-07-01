@@ -1,0 +1,239 @@
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/catronSvn/!svn/ver/2/trunk/matlab/adaptive_gain_equalizer/toolkit/code
+END
+gains.m
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/catronSvn/!svn/ver/2/trunk/matlab/adaptive_gain_equalizer/toolkit/code/gains.m
+END
+result2_main.m
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/catronSvn/!svn/ver/2/trunk/matlab/adaptive_gain_equalizer/toolkit/code/result2_main.m
+END
+figure_position.m
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/catronSvn/!svn/ver/2/trunk/matlab/adaptive_gain_equalizer/toolkit/code/figure_position.m
+END
+result4_main.m
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/catronSvn/!svn/ver/2/trunk/matlab/adaptive_gain_equalizer/toolkit/code/result4_main.m
+END
+fullband_gains.m
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/catronSvn/!svn/ver/2/trunk/matlab/adaptive_gain_equalizer/toolkit/code/fullband_gains.m
+END
+mos_files_order.m
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/catronSvn/!svn/ver/2/trunk/matlab/adaptive_gain_equalizer/toolkit/code/mos_files_order.m
+END
+result_sdi.m
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/catronSvn/!svn/ver/2/trunk/matlab/adaptive_gain_equalizer/toolkit/code/result_sdi.m
+END
+speech_quality.m
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/catronSvn/!svn/ver/2/trunk/matlab/adaptive_gain_equalizer/toolkit/code/speech_quality.m
+END
+averages2.m
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/catronSvn/!svn/ver/2/trunk/matlab/adaptive_gain_equalizer/toolkit/code/averages2.m
+END
+olov.m
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/catronSvn/!svn/ver/2/trunk/matlab/adaptive_gain_equalizer/toolkit/code/olov.m
+END
+averages3.m
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/catronSvn/!svn/ver/2/trunk/matlab/adaptive_gain_equalizer/toolkit/code/averages3.m
+END
+filter64_256.mat
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/catronSvn/!svn/ver/2/trunk/matlab/adaptive_gain_equalizer/toolkit/code/filter64_256.mat
+END
+speech4.mat
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/catronSvn/!svn/ver/2/trunk/matlab/adaptive_gain_equalizer/toolkit/code/speech4.mat
+END
+averages4.m
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/catronSvn/!svn/ver/2/trunk/matlab/adaptive_gain_equalizer/toolkit/code/averages4.m
+END
+SubAnal.m
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/catronSvn/!svn/ver/2/trunk/matlab/adaptive_gain_equalizer/toolkit/code/SubAnal.m
+END
+hermitian_symmetry.m
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/catronSvn/!svn/ver/2/trunk/matlab/adaptive_gain_equalizer/toolkit/code/hermitian_symmetry.m
+END
+gains_vad.m
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/catronSvn/!svn/ver/2/trunk/matlab/adaptive_gain_equalizer/toolkit/code/gains_vad.m
+END
+combine_signals.m
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/catronSvn/!svn/ver/2/trunk/matlab/adaptive_gain_equalizer/toolkit/code/combine_signals.m
+END
+speech.mat
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/catronSvn/!svn/ver/2/trunk/matlab/adaptive_gain_equalizer/toolkit/code/speech.mat
+END
+averages.m
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/catronSvn/!svn/ver/2/trunk/matlab/adaptive_gain_equalizer/toolkit/code/averages.m
+END
+below.mat
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/catronSvn/!svn/ver/2/trunk/matlab/adaptive_gain_equalizer/toolkit/code/below.mat
+END
+result_figure1.m
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/catronSvn/!svn/ver/2/trunk/matlab/adaptive_gain_equalizer/toolkit/code/result_figure1.m
+END
+result_figure2.m
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/catronSvn/!svn/ver/2/trunk/matlab/adaptive_gain_equalizer/toolkit/code/result_figure2.m
+END
+active_speech.m
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/catronSvn/!svn/ver/2/trunk/matlab/adaptive_gain_equalizer/toolkit/code/active_speech.m
+END
+result1_main.m
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/catronSvn/!svn/ver/2/trunk/matlab/adaptive_gain_equalizer/toolkit/code/result1_main.m
+END
+result3_main.m
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/catronSvn/!svn/ver/2/trunk/matlab/adaptive_gain_equalizer/toolkit/code/result3_main.m
+END
+result5_main.m
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/catronSvn/!svn/ver/2/trunk/matlab/adaptive_gain_equalizer/toolkit/code/result5_main.m
+END
+GDFTAnaCmplx_mod.m
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/catronSvn/!svn/ver/2/trunk/matlab/adaptive_gain_equalizer/toolkit/code/GDFTAnaCmplx_mod.m
+END
+SubSynt.m
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/catronSvn/!svn/ver/2/trunk/matlab/adaptive_gain_equalizer/toolkit/code/SubSynt.m
+END
+smoothing.m
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/catronSvn/!svn/ver/2/trunk/matlab/adaptive_gain_equalizer/toolkit/code/smoothing.m
+END
+parameter_comparison.m
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/catronSvn/!svn/ver/2/trunk/matlab/adaptive_gain_equalizer/toolkit/code/parameter_comparison.m
+END
+algorithm_comparison.m
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/catronSvn/!svn/ver/2/trunk/matlab/adaptive_gain_equalizer/toolkit/code/algorithm_comparison.m
+END
+GDFTSynCmplx_mod.m
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/catronSvn/!svn/ver/2/trunk/matlab/adaptive_gain_equalizer/toolkit/code/GDFTSynCmplx_mod.m
+END
+main.m
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/catronSvn/!svn/ver/2/trunk/matlab/adaptive_gain_equalizer/toolkit/code/main.m
+END
+reverb_filtering.m
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/catronSvn/!svn/ver/2/trunk/matlab/adaptive_gain_equalizer/toolkit/code/reverb_filtering.m
+END
+fill_up_with_const.m
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/catronSvn/!svn/ver/2/trunk/matlab/adaptive_gain_equalizer/toolkit/code/fill_up_with_const.m
+END
+result_wav.m
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/catronSvn/!svn/ver/2/trunk/matlab/adaptive_gain_equalizer/toolkit/code/result_wav.m
+END
+result_mos.m
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/catronSvn/!svn/ver/2/trunk/matlab/adaptive_gain_equalizer/toolkit/code/result_mos.m
+END
+result_cmos.m
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/catronSvn/!svn/ver/2/trunk/matlab/adaptive_gain_equalizer/toolkit/code/result_cmos.m
+END

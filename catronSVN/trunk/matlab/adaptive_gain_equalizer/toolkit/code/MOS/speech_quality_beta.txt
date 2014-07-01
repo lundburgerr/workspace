@@ -1,0 +1,241 @@
+Wav file info																		Method	iSNR	oSNR	SDI		SR		NR
+.\signals\p501_2female_2male_ver2.wav_car_sGain6_nGain7.75_SNR-0.0022354_beta1_75s	SBA 	-0.03	 5.74	-6.41	 3.53	 9.30
+.\signals\p501_2female_2male_ver2.wav_car_sGain6_nGain7.75_SNR-0.0022354_beta1_75s	Prop	-0.03	 5.01	-7.28	 3.04	 8.08
+---------------------------------------------------------
+.\signals\p501_2female_2male_ver2.wav_car_sGain6_nGain7.75_SNR-0.0022354_beta3_75s	SBA 	-0.03	 6.09	-5.73	 4.03	10.15
+.\signals\p501_2female_2male_ver2.wav_car_sGain6_nGain7.75_SNR-0.0022354_beta3_75s	Prop	-0.03	 5.08	-7.15	 3.12	 8.23
+---------------------------------------------------------
+.\signals\p501_2female_2male_ver2.wav_car_sGain6_nGain7.75_SNR-0.0022354_beta6_75s	SBA 	-0.03	 6.24	-5.35	 4.36	10.64
+.\signals\p501_2female_2male_ver2.wav_car_sGain6_nGain7.75_SNR-0.0022354_beta6_75s	Prop	-0.03	 5.15	-7.03	 3.18	 8.36
+---------------------------------------------------------
+.\signals\p501_2female_2male_ver2.wav_car_sGain6_nGain7.75_SNR-0.0022354_beta9_75s	SBA 	-0.03	 6.29	-5.09	 4.61	10.93
+.\signals\p501_2female_2male_ver2.wav_car_sGain6_nGain7.75_SNR-0.0022354_beta9_75s	Prop	-0.03	 5.17	-6.97	 3.21	 8.41
+---------------------------------------------------------
+.\signals\p501_2female_2male_ver2.wav_car_sGain6_nGain1.75_SNR5.9978_beta1_75s		SBA 	 5.97	11.15	-9.30	 1.97	 7.16
+.\signals\p501_2female_2male_ver2.wav_car_sGain6_nGain1.75_SNR5.9978_beta1_75s		Prop	 5.97	10.24	-10.77	 1.54	 5.81
+---------------------------------------------------------
+.\signals\p501_2female_2male_ver2.wav_car_sGain6_nGain1.75_SNR5.9978_beta3_75s		SBA 	 5.97	11.90	-7.86	 2.53	 8.46
+.\signals\p501_2female_2male_ver2.wav_car_sGain6_nGain1.75_SNR5.9978_beta3_75s		Prop	 5.97	10.34	-10.61	 1.58	 5.95
+---------------------------------------------------------
+.\signals\p501_2female_2male_ver2.wav_car_sGain6_nGain1.75_SNR5.9978_beta6_75s		SBA 	 5.97	12.25	-7.04	 2.98	 9.25
+.\signals\p501_2female_2male_ver2.wav_car_sGain6_nGain1.75_SNR5.9978_beta6_75s		Prop	 5.97	10.38	-10.50	 1.61	 6.02
+---------------------------------------------------------
+.\signals\p501_2female_2male_ver2.wav_car_sGain6_nGain1.75_SNR5.9978_beta9_75s		SBA 	 5.97	12.45	-6.63	 3.23	 9.72
+.\signals\p501_2female_2male_ver2.wav_car_sGain6_nGain1.75_SNR5.9978_beta9_75s		Prop	 5.97	10.42	-10.42	 1.63	 6.08
+---------------------------------------------------------
+.\signals\p501_2female_2male_ver2.wav_car_sGain6_nGain-4.25_SNR11.9978_beta1_75s	SBA 	11.97	15.37	-13.99	 0.77	 4.17
+.\signals\p501_2female_2male_ver2.wav_car_sGain6_nGain-4.25_SNR11.9978_beta1_75s	Prop	11.97	14.39	-16.42	 0.51	 2.93
+---------------------------------------------------------
+.\signals\p501_2female_2male_ver2.wav_car_sGain6_nGain-4.25_SNR11.9978_beta3_75s	SBA 	11.97	16.56	-11.39	 1.17	 5.75
+.\signals\p501_2female_2male_ver2.wav_car_sGain6_nGain-4.25_SNR11.9978_beta3_75s	Prop	11.97	14.49	-16.20	 0.53	 3.05
+---------------------------------------------------------
+.\signals\p501_2female_2male_ver2.wav_car_sGain6_nGain-4.25_SNR11.9978_beta6_75s	SBA 	11.97	17.33	-9.36	 1.75	 7.11
+.\signals\p501_2female_2male_ver2.wav_car_sGain6_nGain-4.25_SNR11.9978_beta6_75s	Prop	11.97	14.51	-16.13	 0.53	 3.08
+---------------------------------------------------------
+.\signals\p501_2female_2male_ver2.wav_car_sGain6_nGain-4.25_SNR11.9978_beta9_75s	SBA 	11.97	17.70	-8.49	 2.08	 7.81
+.\signals\p501_2female_2male_ver2.wav_car_sGain6_nGain-4.25_SNR11.9978_beta9_75s	Prop	11.97	14.54	-16.03	 0.54	 3.11
+---------------------------------------------------------
+.\signals\p501_2female_2male_ver2.wav_car_sGain6_nGain-10.25_SNR17.9978_beta1_75s	SBA 	17.97	19.20	-21.57	 0.18	 1.41
+.\signals\p501_2female_2male_ver2.wav_car_sGain6_nGain-10.25_SNR17.9978_beta1_75s	Prop	17.97	18.60	-24.92	 0.08	 0.71
+---------------------------------------------------------
+.\signals\p501_2female_2male_ver2.wav_car_sGain6_nGain-10.25_SNR17.9978_beta3_75s	SBA 	17.97	20.38	-16.90	 0.42	 2.83
+.\signals\p501_2female_2male_ver2.wav_car_sGain6_nGain-10.25_SNR17.9978_beta3_75s	Prop	17.97	18.60	-24.90	 0.08	 0.72
+---------------------------------------------------------
+.\signals\p501_2female_2male_ver2.wav_car_sGain6_nGain-10.25_SNR17.9978_beta6_75s	SBA 	17.97	21.75	-12.72	 0.82	 4.60
+.\signals\p501_2female_2male_ver2.wav_car_sGain6_nGain-10.25_SNR17.9978_beta6_75s	Prop	17.97	18.61	-24.89	 0.08	 0.72
+---------------------------------------------------------
+.\signals\p501_2female_2male_ver2.wav_car_sGain6_nGain-10.25_SNR17.9978_beta9_75s	SBA 	17.97	22.42	-10.64	 1.27	 5.72
+.\signals\p501_2female_2male_ver2.wav_car_sGain6_nGain-10.25_SNR17.9978_beta9_75s	Prop	17.97	18.61	-24.88	 0.08	 0.72
+---------------------------------------------------------
+.\signals\p501_2female_2male_ver2.wav_car_sGain6_nGain-16.25_SNR23.9978_beta1_75s	SBA 	23.97	24.31	-30.14	 0.02	 0.36
+.\signals\p501_2female_2male_ver2.wav_car_sGain6_nGain-16.25_SNR23.9978_beta1_75s	Prop	23.97	24.16	-31.72	 0.01	 0.20
+---------------------------------------------------------
+.\signals\p501_2female_2male_ver2.wav_car_sGain6_nGain-16.25_SNR23.9978_beta3_75s	SBA 	23.97	24.67	-26.43	 0.06	 0.77
+.\signals\p501_2female_2male_ver2.wav_car_sGain6_nGain-16.25_SNR23.9978_beta3_75s	Prop	23.97	24.16	-31.72	 0.01	 0.20
+---------------------------------------------------------
+.\signals\p501_2female_2male_ver2.wav_car_sGain6_nGain-16.25_SNR23.9978_beta6_75s	SBA 	23.97	25.79	-17.99	 0.29	 2.11
+.\signals\p501_2female_2male_ver2.wav_car_sGain6_nGain-16.25_SNR23.9978_beta6_75s	Prop	23.97	24.16	-31.72	 0.01	 0.20
+---------------------------------------------------------
+.\signals\p501_2female_2male_ver2.wav_car_sGain6_nGain-16.25_SNR23.9978_beta9_75s	SBA 	23.97	26.79	-13.82	 0.60	 3.42
+.\signals\p501_2female_2male_ver2.wav_car_sGain6_nGain-16.25_SNR23.9978_beta9_75s	Prop	23.97	24.16	-31.72	 0.01	 0.20
+---------------------------------------------------------
+.\signals\p501_2female_2male_ver2.wav_comp_sGain6_nGain5.69_SNR-0.002267_beta1_75s	SBA 	-0.13	 7.06	-9.05	 1.98	 9.17
+.\signals\p501_2female_2male_ver2.wav_comp_sGain6_nGain5.69_SNR-0.002267_beta1_75s	Prop	-0.13	 6.29	-10.16	 1.61	 8.03
+---------------------------------------------------------
+.\signals\p501_2female_2male_ver2.wav_comp_sGain6_nGain5.69_SNR-0.002267_beta3_75s	SBA 	-0.13	 7.44	-7.83	 2.44	10.01
+.\signals\p501_2female_2male_ver2.wav_comp_sGain6_nGain5.69_SNR-0.002267_beta3_75s	Prop	-0.13	 6.36	-9.89	 1.69	 8.19
+---------------------------------------------------------
+.\signals\p501_2female_2male_ver2.wav_comp_sGain6_nGain5.69_SNR-0.002267_beta6_75s	SBA 	-0.13	 7.52	-7.07	 2.86	10.51
+.\signals\p501_2female_2male_ver2.wav_comp_sGain6_nGain5.69_SNR-0.002267_beta6_75s	Prop	-0.13	 6.41	-9.74	 1.74	 8.28
+---------------------------------------------------------
+.\signals\p501_2female_2male_ver2.wav_comp_sGain6_nGain5.69_SNR-0.002267_beta9_75s	SBA 	-0.13	 7.54	-6.66	 3.14	10.81
+.\signals\p501_2female_2male_ver2.wav_comp_sGain6_nGain5.69_SNR-0.002267_beta9_75s	Prop	-0.13	 6.45	-9.64	 1.76	 8.35
+---------------------------------------------------------
+.\signals\p501_2female_2male_ver2.wav_comp_sGain6_nGain-0.31_SNR5.9977_beta1_75s	SBA 	 5.87	12.91	-12.32	 0.93	 7.97
+.\signals\p501_2female_2male_ver2.wav_comp_sGain6_nGain-0.31_SNR5.9977_beta1_75s	Prop	 5.87	11.81	-13.59	 0.72	 6.67
+---------------------------------------------------------
+.\signals\p501_2female_2male_ver2.wav_comp_sGain6_nGain-0.31_SNR5.9977_beta3_75s	SBA 	 5.87	13.65	-10.59	 1.31	 9.09
+.\signals\p501_2female_2male_ver2.wav_comp_sGain6_nGain-0.31_SNR5.9977_beta3_75s	Prop	 5.87	11.93	-13.37	 0.76	 6.82
+---------------------------------------------------------
+.\signals\p501_2female_2male_ver2.wav_comp_sGain6_nGain-0.31_SNR5.9977_beta6_75s	SBA 	 5.87	13.93	-9.09	 1.79	 9.85
+.\signals\p501_2female_2male_ver2.wav_comp_sGain6_nGain-0.31_SNR5.9977_beta6_75s	Prop	 5.87	12.03	-13.20	 0.78	 6.94
+---------------------------------------------------------
+.\signals\p501_2female_2male_ver2.wav_comp_sGain6_nGain-0.31_SNR5.9977_beta9_75s	SBA 	 5.87	14.05	-8.34	 2.08	10.26
+.\signals\p501_2female_2male_ver2.wav_comp_sGain6_nGain-0.31_SNR5.9977_beta9_75s	Prop	 5.87	12.07	-13.11	 0.79	 6.99
+---------------------------------------------------------
+.\signals\p501_2female_2male_ver2.wav_comp_sGain6_nGain-6.31_SNR11.9977_beta1_75s	SBA 	11.87	17.11	-15.63	 0.50	 5.74
+.\signals\p501_2female_2male_ver2.wav_comp_sGain6_nGain-6.31_SNR11.9977_beta1_75s	Prop	11.87	15.79	-17.40	 0.39	 4.31
+---------------------------------------------------------
+.\signals\p501_2female_2male_ver2.wav_comp_sGain6_nGain-6.31_SNR11.9977_beta3_75s	SBA 	11.87	18.57	-13.58	 0.67	 7.37
+.\signals\p501_2female_2male_ver2.wav_comp_sGain6_nGain-6.31_SNR11.9977_beta3_75s	Prop	11.87	15.88	-17.15	 0.40	 4.42
+---------------------------------------------------------
+.\signals\p501_2female_2male_ver2.wav_comp_sGain6_nGain-6.31_SNR11.9977_beta6_75s	SBA 	11.87	19.47	-11.64	 0.98	 8.57
+.\signals\p501_2female_2male_ver2.wav_comp_sGain6_nGain-6.31_SNR11.9977_beta6_75s	Prop	11.87	15.98	-16.97	 0.41	 4.52
+---------------------------------------------------------
+.\signals\p501_2female_2male_ver2.wav_comp_sGain6_nGain-6.31_SNR11.9977_beta9_75s	SBA 	11.87	19.73	-10.10	 1.40	 9.26
+.\signals\p501_2female_2male_ver2.wav_comp_sGain6_nGain-6.31_SNR11.9977_beta9_75s	Prop	11.87	16.05	-16.81	 0.42	 4.60
+---------------------------------------------------------
+.\signals\p501_2female_2male_ver2.wav_comp_sGain6_nGain-12.31_SNR17.9977_beta1_75s	SBA 	17.87	20.04	-21.83	 0.19	 2.36
+.\signals\p501_2female_2male_ver2.wav_comp_sGain6_nGain-12.31_SNR17.9977_beta1_75s	Prop	17.87	19.01	-25.47	 0.09	 1.23
+---------------------------------------------------------
+.\signals\p501_2female_2male_ver2.wav_comp_sGain6_nGain-12.31_SNR17.9977_beta3_75s	SBA 	17.87	21.86	-17.49	 0.35	 4.34
+.\signals\p501_2female_2male_ver2.wav_comp_sGain6_nGain-12.31_SNR17.9977_beta3_75s	Prop	17.87	19.09	-24.51	 0.10	 1.33
+---------------------------------------------------------
+.\signals\p501_2female_2male_ver2.wav_comp_sGain6_nGain-12.31_SNR17.9977_beta6_75s	SBA 	17.87	23.56	-14.45	 0.55	 6.24
+.\signals\p501_2female_2male_ver2.wav_comp_sGain6_nGain-12.31_SNR17.9977_beta6_75s	Prop	17.87	19.17	-23.94	 0.11	 1.41
+---------------------------------------------------------
+.\signals\p501_2female_2male_ver2.wav_comp_sGain6_nGain-12.31_SNR17.9977_beta9_75s	SBA 	17.87	24.52	-12.55	 0.78	 7.43
+.\signals\p501_2female_2male_ver2.wav_comp_sGain6_nGain-12.31_SNR17.9977_beta9_75s	Prop	17.87	19.22	-23.59	 0.11	 1.46
+---------------------------------------------------------
+.\signals\p501_2female_2male_ver2.wav_comp_sGain6_nGain-18.31_SNR23.9977_beta1_75s	SBA 	23.87	24.20	-31.54	 0.02	 0.35
+.\signals\p501_2female_2male_ver2.wav_comp_sGain6_nGain-18.31_SNR23.9977_beta1_75s	Prop	23.87	24.04	-33.01	 0.01	 0.19
+---------------------------------------------------------
+.\signals\p501_2female_2male_ver2.wav_comp_sGain6_nGain-18.31_SNR23.9977_beta3_75s	SBA 	23.87	24.91	-25.62	 0.08	 1.12
+.\signals\p501_2female_2male_ver2.wav_comp_sGain6_nGain-18.31_SNR23.9977_beta3_75s	Prop	23.87	24.05	-32.87	 0.01	 0.19
+---------------------------------------------------------
+.\signals\p501_2female_2male_ver2.wav_comp_sGain6_nGain-18.31_SNR23.9977_beta6_75s	SBA 	23.87	26.54	-18.40	 0.25	 2.92
+.\signals\p501_2female_2male_ver2.wav_comp_sGain6_nGain-18.31_SNR23.9977_beta6_75s	Prop	23.87	24.05	-32.76	 0.01	 0.19
+---------------------------------------------------------
+.\signals\p501_2female_2male_ver2.wav_comp_sGain6_nGain-18.31_SNR23.9977_beta9_75s	SBA 	23.87	27.90	-15.33	 0.44	 4.47
+.\signals\p501_2female_2male_ver2.wav_comp_sGain6_nGain-18.31_SNR23.9977_beta9_75s	Prop	23.87	24.06	-32.64	 0.01	 0.20
+---------------------------------------------------------
+.\signals\p501_2female_2male_ver2.wav_vent_sGain6_nGain5.11_SNR-9.1065e-005_beta1_75s	SBA 	-0.07	 6.77	-8.78	 2.08	 8.93
+.\signals\p501_2female_2male_ver2.wav_vent_sGain6_nGain5.11_SNR-9.1065e-005_beta1_75s	Prop	-0.07	 5.95	-9.89	 1.74	 7.76
+---------------------------------------------------------
+.\signals\p501_2female_2male_ver2.wav_vent_sGain6_nGain5.11_SNR-9.1065e-005_beta3_75s	SBA 	-0.07	 7.30	-7.56	 2.54	 9.91
+.\signals\p501_2female_2male_ver2.wav_vent_sGain6_nGain5.11_SNR-9.1065e-005_beta3_75s	Prop	-0.07	 6.15	-9.73	 1.78	 8.00
+---------------------------------------------------------
+.\signals\p501_2female_2male_ver2.wav_vent_sGain6_nGain5.11_SNR-9.1065e-005_beta6_75s	SBA 	-0.07	 7.44	-6.82	 2.99	10.50
+.\signals\p501_2female_2male_ver2.wav_vent_sGain6_nGain5.11_SNR-9.1065e-005_beta6_75s	Prop	-0.07	 6.22	-9.60	 1.81	 8.10
+---------------------------------------------------------
+.\signals\p501_2female_2male_ver2.wav_vent_sGain6_nGain5.11_SNR-9.1065e-005_beta9_75s	SBA 	-0.07	 7.54	-6.45	 3.23	10.84
+.\signals\p501_2female_2male_ver2.wav_vent_sGain6_nGain5.11_SNR-9.1065e-005_beta9_75s	Prop	-0.07	 6.27	-9.51	 1.83	 8.17
+---------------------------------------------------------
+.\signals\p501_2female_2male_ver2.wav_vent_sGain6_nGain-0.89_SNR5.9999_beta1_75s	SBA 	 5.93	12.48	-12.06	 0.99	 7.54
+.\signals\p501_2female_2male_ver2.wav_vent_sGain6_nGain-0.89_SNR5.9999_beta1_75s	Prop	 5.93	11.38	-13.53	 0.76	 6.22
+---------------------------------------------------------
+.\signals\p501_2female_2male_ver2.wav_vent_sGain6_nGain-0.89_SNR5.9999_beta3_75s	SBA 	 5.93	13.37	-10.27	 1.40	 8.84
+.\signals\p501_2female_2male_ver2.wav_vent_sGain6_nGain-0.89_SNR5.9999_beta3_75s	Prop	 5.93	11.55	-13.37	 0.78	 6.40
+---------------------------------------------------------
+.\signals\p501_2female_2male_ver2.wav_vent_sGain6_nGain-0.89_SNR5.9999_beta6_75s	SBA 	 5.93	13.71	-8.78	 1.89	 9.66
+.\signals\p501_2female_2male_ver2.wav_vent_sGain6_nGain-0.89_SNR5.9999_beta6_75s	Prop	 5.93	11.62	-13.27	 0.79	 6.48
+---------------------------------------------------------
+.\signals\p501_2female_2male_ver2.wav_vent_sGain6_nGain-0.89_SNR5.9999_beta9_75s	SBA 	 5.93	13.86	-8.08	 2.19	10.12
+.\signals\p501_2female_2male_ver2.wav_vent_sGain6_nGain-0.89_SNR5.9999_beta9_75s	Prop	 5.93	11.68	-13.19	 0.80	 6.54
+---------------------------------------------------------
+.\signals\p501_2female_2male_ver2.wav_vent_sGain6_nGain-6.89_SNR11.9999_beta1_75s	SBA 	11.93	16.77	-15.53	 0.51	 5.34
+.\signals\p501_2female_2male_ver2.wav_vent_sGain6_nGain-6.89_SNR11.9999_beta1_75s	Prop	11.93	15.46	-17.67	 0.38	 3.91
+---------------------------------------------------------
+.\signals\p501_2female_2male_ver2.wav_vent_sGain6_nGain-6.89_SNR11.9999_beta3_75s	SBA 	11.93	18.29	-13.22	 0.71	 7.07
+.\signals\p501_2female_2male_ver2.wav_vent_sGain6_nGain-6.89_SNR11.9999_beta3_75s	Prop	11.93	15.71	-17.19	 0.40	 4.19
+---------------------------------------------------------
+.\signals\p501_2female_2male_ver2.wav_vent_sGain6_nGain-6.89_SNR11.9999_beta6_75s	SBA 	11.93	19.12	-11.33	 1.06	 8.25
+.\signals\p501_2female_2male_ver2.wav_vent_sGain6_nGain-6.89_SNR11.9999_beta6_75s	Prop	11.93	15.79	-17.05	 0.41	 4.27
+---------------------------------------------------------
+.\signals\p501_2female_2male_ver2.wav_vent_sGain6_nGain-6.89_SNR11.9999_beta9_75s	SBA 	11.93	19.44	-9.85	 1.46	 8.97
+.\signals\p501_2female_2male_ver2.wav_vent_sGain6_nGain-6.89_SNR11.9999_beta9_75s	Prop	11.93	15.85	-16.94	 0.41	 4.34
+---------------------------------------------------------
+.\signals\p501_2female_2male_ver2.wav_vent_sGain6_nGain-12.89_SNR17.9999_beta1_75s	SBA 	17.93	19.94	-21.96	 0.19	 2.19
+.\signals\p501_2female_2male_ver2.wav_vent_sGain6_nGain-12.89_SNR17.9999_beta1_75s	Prop	17.93	18.86	-26.32	 0.07	 1.00
+---------------------------------------------------------
+.\signals\p501_2female_2male_ver2.wav_vent_sGain6_nGain-12.89_SNR17.9999_beta3_75s	SBA 	17.93	21.75	-17.02	 0.37	 4.19
+.\signals\p501_2female_2male_ver2.wav_vent_sGain6_nGain-12.89_SNR17.9999_beta3_75s	Prop	17.93	19.08	-24.85	 0.10	 1.25
+---------------------------------------------------------
+.\signals\p501_2female_2male_ver2.wav_vent_sGain6_nGain-12.89_SNR17.9999_beta6_75s	SBA 	17.93	23.26	-13.99	 0.59	 5.92
+.\signals\p501_2female_2male_ver2.wav_vent_sGain6_nGain-12.89_SNR17.9999_beta6_75s	Prop	17.93	19.14	-24.44	 0.10	 1.31
+---------------------------------------------------------
+.\signals\p501_2female_2male_ver2.wav_vent_sGain6_nGain-12.89_SNR17.9999_beta9_75s	SBA 	17.93	24.07	-12.29	 0.82	 6.95
+.\signals\p501_2female_2male_ver2.wav_vent_sGain6_nGain-12.89_SNR17.9999_beta9_75s	Prop	17.93	19.17	-24.25	 0.11	 1.35
+---------------------------------------------------------
+.\signals\p501_2female_2male_ver2.wav_vent_sGain6_nGain-18.89_SNR23.9999_beta1_75s	SBA 	23.93	24.21	-32.34	 0.01	 0.29
+.\signals\p501_2female_2male_ver2.wav_vent_sGain6_nGain-18.89_SNR23.9999_beta1_75s	Prop	23.93	24.11	-33.49	 0.01	 0.19
+---------------------------------------------------------
+.\signals\p501_2female_2male_ver2.wav_vent_sGain6_nGain-18.89_SNR23.9999_beta3_75s	SBA 	23.93	24.94	-25.49	 0.08	 1.09
+.\signals\p501_2female_2male_ver2.wav_vent_sGain6_nGain-18.89_SNR23.9999_beta3_75s	Prop	23.93	24.12	-32.91	 0.01	 0.20
+---------------------------------------------------------
+.\signals\p501_2female_2male_ver2.wav_vent_sGain6_nGain-18.89_SNR23.9999_beta6_75s	SBA 	23.93	26.63	-17.81	 0.28	 2.98
+.\signals\p501_2female_2male_ver2.wav_vent_sGain6_nGain-18.89_SNR23.9999_beta6_75s	Prop	23.93	24.13	-32.70	 0.01	 0.21
+---------------------------------------------------------
+.\signals\p501_2female_2male_ver2.wav_vent_sGain6_nGain-18.89_SNR23.9999_beta9_75s	SBA 	23.93	27.89	-14.76	 0.49	 4.44
+.\signals\p501_2female_2male_ver2.wav_vent_sGain6_nGain-18.89_SNR23.9999_beta9_75s	Prop	23.93	24.13	-32.64	 0.01	 0.21
+---------------------------------------------------------
+.\signals\p501_2female_2male_ver2.wav_cocktail_sGain6_nGain17.74_SNR0.0056462_beta1_75s	SBA 	-0.30	 0.01	-10.26	 1.78	 2.08
+.\signals\p501_2female_2male_ver2.wav_cocktail_sGain6_nGain17.74_SNR0.0056462_beta1_75s	Prop	-0.30	-0.14	-18.07	 0.42	 0.58
+---------------------------------------------------------
+.\signals\p501_2female_2male_ver2.wav_cocktail_sGain6_nGain17.74_SNR0.0056462_beta3_75s	SBA 	-0.30	 0.17	-7.27	 3.12	 3.59
+.\signals\p501_2female_2male_ver2.wav_cocktail_sGain6_nGain17.74_SNR0.0056462_beta3_75s	Prop	-0.30	-0.14	-18.07	 0.42	 0.58
+---------------------------------------------------------
+.\signals\p501_2female_2male_ver2.wav_cocktail_sGain6_nGain17.74_SNR0.0056462_beta6_75s	SBA 	-0.30	 0.42	-5.83	 4.21	 4.92
+.\signals\p501_2female_2male_ver2.wav_cocktail_sGain6_nGain17.74_SNR0.0056462_beta6_75s	Prop	-0.30	-0.14	-18.07	 0.42	 0.58
+---------------------------------------------------------
+.\signals\p501_2female_2male_ver2.wav_cocktail_sGain6_nGain17.74_SNR0.0056462_beta9_75s	SBA 	-0.30	 0.45	-5.19	 4.98	 5.72
+.\signals\p501_2female_2male_ver2.wav_cocktail_sGain6_nGain17.74_SNR0.0056462_beta9_75s	Prop	-0.30	-0.14	-18.07	 0.42	 0.58
+---------------------------------------------------------
+.\signals\p501_2female_2male_ver2.wav_cocktail_sGain6_nGain11.74_SNR6.0056_beta1_75s	SBA 	 5.70	 6.31	-14.73	 0.71	 1.32
+.\signals\p501_2female_2male_ver2.wav_cocktail_sGain6_nGain11.74_SNR6.0056_beta1_75s	Prop	 5.70	 5.86	-24.57	 0.12	 0.27
+---------------------------------------------------------
+.\signals\p501_2female_2male_ver2.wav_cocktail_sGain6_nGain11.74_SNR6.0056_beta3_75s	SBA 	 5.70	 6.80	-10.37	 1.62	 2.71
+.\signals\p501_2female_2male_ver2.wav_cocktail_sGain6_nGain11.74_SNR6.0056_beta3_75s	Prop	 5.70	 5.86	-24.57	 0.12	 0.27
+---------------------------------------------------------
+.\signals\p501_2female_2male_ver2.wav_cocktail_sGain6_nGain11.74_SNR6.0056_beta6_75s	SBA 	 5.70	 7.20	-7.84	 2.64	 4.14
+.\signals\p501_2female_2male_ver2.wav_cocktail_sGain6_nGain11.74_SNR6.0056_beta6_75s	Prop	 5.70	 5.86	-24.57	 0.12	 0.27
+---------------------------------------------------------
+.\signals\p501_2female_2male_ver2.wav_cocktail_sGain6_nGain11.74_SNR6.0056_beta9_75s	SBA 	 5.70	 7.47	-6.84	 3.23	 5.00
+.\signals\p501_2female_2male_ver2.wav_cocktail_sGain6_nGain11.74_SNR6.0056_beta9_75s	Prop	 5.70	 5.86	-24.57	 0.12	 0.27
+---------------------------------------------------------
+.\signals\p501_2female_2male_ver2.wav_cocktail_sGain6_nGain5.74_SNR12.0056_beta1_75s	SBA 	11.70	12.12	-21.50	 0.18	 0.60
+.\signals\p501_2female_2male_ver2.wav_cocktail_sGain6_nGain5.74_SNR12.0056_beta1_75s	Prop	11.70	11.76	-32.57	 0.01	 0.07
+---------------------------------------------------------
+.\signals\p501_2female_2male_ver2.wav_cocktail_sGain6_nGain5.74_SNR12.0056_beta3_75s	SBA 	11.70	12.72	-14.89	 0.61	 1.62
+.\signals\p501_2female_2male_ver2.wav_cocktail_sGain6_nGain5.74_SNR12.0056_beta3_75s	Prop	11.70	11.76	-32.57	 0.01	 0.07
+---------------------------------------------------------
+.\signals\p501_2female_2male_ver2.wav_cocktail_sGain6_nGain5.74_SNR12.0056_beta6_75s	SBA 	11.70	13.32	-11.03	 1.31	 2.93
+.\signals\p501_2female_2male_ver2.wav_cocktail_sGain6_nGain5.74_SNR12.0056_beta6_75s	Prop	11.70	11.76	-32.57	 0.01	 0.07
+---------------------------------------------------------
+.\signals\p501_2female_2male_ver2.wav_cocktail_sGain6_nGain5.74_SNR12.0056_beta9_75s	SBA 	11.70	13.68	-9.06	 1.93	 3.91
+.\signals\p501_2female_2male_ver2.wav_cocktail_sGain6_nGain5.74_SNR12.0056_beta9_75s	Prop	11.70	11.76	-32.57	 0.01	 0.07
+---------------------------------------------------------
+.\signals\p501_2female_2male_ver2.wav_cocktail_sGain6_nGain-0.26_SNR18.0056_beta1_75s	SBA 	17.70	17.91	-30.50	 0.02	 0.23
+.\signals\p501_2female_2male_ver2.wav_cocktail_sGain6_nGain-0.26_SNR18.0056_beta1_75s	Prop	17.70	17.73	-38.14	 0.00	 0.03
+---------------------------------------------------------
+.\signals\p501_2female_2male_ver2.wav_cocktail_sGain6_nGain-0.26_SNR18.0056_beta3_75s	SBA 	17.70	18.35	-21.28	 0.16	 0.81
+.\signals\p501_2female_2male_ver2.wav_cocktail_sGain6_nGain-0.26_SNR18.0056_beta3_75s	Prop	17.70	17.73	-38.14	 0.00	 0.03
+---------------------------------------------------------
+.\signals\p501_2female_2male_ver2.wav_cocktail_sGain6_nGain-0.26_SNR18.0056_beta6_75s	SBA 	17.70	18.94	-15.02	 0.54	 1.78
+.\signals\p501_2female_2male_ver2.wav_cocktail_sGain6_nGain-0.26_SNR18.0056_beta6_75s	Prop	17.70	17.73	-38.14	 0.00	 0.03
+---------------------------------------------------------
+.\signals\p501_2female_2male_ver2.wav_cocktail_sGain6_nGain-0.26_SNR18.0056_beta9_75s	SBA 	17.70	19.41	-11.91	 1.00	 2.71
+.\signals\p501_2female_2male_ver2.wav_cocktail_sGain6_nGain-0.26_SNR18.0056_beta9_75s	Prop	17.70	17.73	-38.14	 0.00	 0.03
+---------------------------------------------------------
+.\signals\p501_2female_2male_ver2.wav_cocktail_sGain6_nGain-6.26_SNR24.0056_beta1_75s	SBA 	23.70	23.82	-37.26	 0.00	 0.12
+.\signals\p501_2female_2male_ver2.wav_cocktail_sGain6_nGain-6.26_SNR24.0056_beta1_75s	Prop	23.70	23.72	-43.32	 0.00	 0.02
+---------------------------------------------------------
+.\signals\p501_2female_2male_ver2.wav_cocktail_sGain6_nGain-6.26_SNR24.0056_beta3_75s	SBA 	23.70	24.09	-30.03	 0.02	 0.41
+.\signals\p501_2female_2male_ver2.wav_cocktail_sGain6_nGain-6.26_SNR24.0056_beta3_75s	Prop	23.70	23.72	-43.32	 0.00	 0.02
+---------------------------------------------------------
+.\signals\p501_2female_2male_ver2.wav_cocktail_sGain6_nGain-6.26_SNR24.0056_beta6_75s	SBA 	23.70	24.51	-20.96	 0.16	 0.98
+.\signals\p501_2female_2male_ver2.wav_cocktail_sGain6_nGain-6.26_SNR24.0056_beta6_75s	Prop	23.70	23.72	-43.32	 0.00	 0.02
+---------------------------------------------------------
+.\signals\p501_2female_2male_ver2.wav_cocktail_sGain6_nGain-6.26_SNR24.0056_beta9_75s	SBA 	23.70	24.97	-15.28	 0.48	 1.75
+.\signals\p501_2female_2male_ver2.wav_cocktail_sGain6_nGain-6.26_SNR24.0056_beta9_75s	Prop	23.70	23.72	-43.32	 0.00	 0.02
+---------------------------------------------------------

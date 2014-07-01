@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/catronSvn/!svn/ver/267/trunk/dsp/test_catron/.settings
+END
+org.eclipse.core.resources.prefs
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/catronSvn/!svn/ver/267/trunk/dsp/test_catron/.settings/org.eclipse.core.resources.prefs
+END
+org.eclipse.cdt.codan.core.prefs
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/catronSvn/!svn/ver/267/trunk/dsp/test_catron/.settings/org.eclipse.cdt.codan.core.prefs
+END
+org.eclipse.cdt.debug.core.prefs
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/catronSvn/!svn/ver/267/trunk/dsp/test_catron/.settings/org.eclipse.cdt.debug.core.prefs
+END

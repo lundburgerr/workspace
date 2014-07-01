@@ -1,0 +1,242 @@
+; General settings that can be overwritten in the host code
+; that calls the AISGen library.
+[General]
+
+; Can be 8 or 16 - used in emifa
+busWidth=8            
+
+; SPIMASTER,I2CMASTER,EMIFA,NAND,EMAC,UART,PCI,HPI,USB,MMC_SD,VLYNQ,RAW
+BootMode=NAND
+
+; 8,16,24 - used for SPI,I2C
+;AddrWidth=8          
+
+; NO_CRC,SECTION_CRC,SINGLE_CRC
+crcCheckType=NO_CRC
+
+
+; This section allows setting the PLL0 system clock with a  
+; specified multiplier and divider as shown. The clock source
+; can also be chosen for internal or external.
+;           |------24|------16|-------8|-------0|
+; PLL0CFG0: | CLKMODE| PLLM   | PREDIV | POSTDIV|
+; PLL0CFG1: | RSVD   | PLLDIV1| PLLDIV3| PLLDIV7|
+[PLL0CONFIG]
+PLL0CFG0 = 0x00180001
+PLL0CFG1 = 0x00000205
+
+;[PLLANDCLOCKCONFIG]
+;PLL0CFG0 = 0x00180001
+;PLL0CFG1 = 0x00000B05
+;PERIPHCLKCFG = 0x00010064
+
+; This section allows setting up the PLL1. Usually this will 
+; take place as part of the EMIF3a DDR setup. The format of
+; the input args is as follows:
+;           |------24|------16|-------8|-------0|
+; PLL1CFG0: |    PLLM| POSTDIV| PLLDIV1| PLLDIV2|
+; PLL1CFG1: |           RSVD           | PLLDIV3|
+;[PLL1CONFIG]
+;PLL1CFG0 = 0x00000000
+;PLL1CFG1 = 0x00000000
+
+; This section lets us configure the peripheral interface
+; of the current booting peripheral (I2C, SPI, or UART).
+; Use with caution. The format of the PERIPHCLKCFG field 
+; is as follows:
+; SPI:        |------24|------16|-------8|-------0|
+;             |           RSVD           |PRESCALE|
+;
+; I2C:        |------24|------16|-------8|-------0|
+;             |  RSVD  |PRESCALE|  CLKL  |  CLKH  |
+;
+; UART:       |------24|------16|-------8|-------0|
+;             | RSVD   |  OSR   |  DLH   |  DLL   |
+;
+; SDMMC:      |------24|------16|-------8|-------0|
+;             |          RSVD   |  DIV4  | CLKRT  |
+;[PERIPHCLKCFG]
+;PERIPHCLKCFG = 0x00000000
+
+; This section can be used to configure the EMIFA to use 
+; CS0 as an SDRAM interface.  The fields required to do this
+; are given below.
+;                     |------24|------16|-------8|-------0|
+; SDBCR:              |               SDBCR               |
+; SDTIMR:             |               SDTIMR              |
+; SDRSRPDEXIT:        |             SDRSRPDEXIT           |
+; SDRCR:              |               SDRCR               |
+; DIV4p5_CLK_ENABLE:  |         DIV4p5_CLK_ENABLE         |
+;[EMIF25SDRAM]
+;SDBCR = 0x00004421
+;SDTIMR = 0x42215810
+;SDRSRPDEXIT = 0x00000009
+;SDRCR = 0x00000410
+;DIV4p5_CLK_ENABLE = 0x00000001
+
+; This section can be used to configure the async chip selects
+; of the EMIFA (CS2-CS5).  The fields required to do this
+; are given below.
+;           |------24|------16|-------8|-------0|
+; A1CR:     |                A1CR               |
+; A2CR:     |                A2CR               |
+; A3CR:     |                A3CR               |
+; A4CR:     |                A4CR               |
+; NANDFCR:  |              NANDFCR              |
+;[EMIF25ASYNC]
+;A1CR = 0x00000000
+;A2CR = 0x00000000
+;A3CR = 0x00000000
+;A4CR = 0x00000000
+;NANDFCR = 0x00000000
+
+; This section should be used in place of PLL0CONFIG when
+; the I2C, SPI, or UART modes are being used.  This ensures that 
+; the system PLL and the peripheral's clocks are changed together.
+; See PLL0CONFIG section for the format of the PLL0CFG fields.
+; See PERIPHCLKCFG section for the format of the CLKCFG field.
+;               |------24|------16|-------8|-------0|
+; PLL0CFG0:     |              PLL0CFG              |
+; PLL0CFG1:     |              PLL0CFG              |
+; PERIPHCLKCFG: |              CLKCFG               |
+;[PLLANDCLOCKCONFIG]
+;PLL0CFG0 = 0x00180001
+;PLL0CFG1 = 0x00000205
+;PERIPHCLKCFG = 0x00000007
+
+
+; This section can be used to configure the PLL1 and the EMIF3a registers
+; for starting the DDR2 interface. 
+; See PLL1CONFIG section for the format of the PLL1CFG fields.
+;            |------24|------16|-------8|-------0|
+; PLL1CFG0:  |              PLL1CFG              |
+; PLL1CFG1:  |              PLL1CFG              |
+; DDRPHYC1R: |             DDRPHYC1R             |
+; SDCR:      |              SDCR                 |
+; SDTIMR:    |              SDTIMR               |
+; SDTIMR2:   |              SDTIMR2              |
+; SDRCR:     |              SDRCR                |
+; CLK2XSRC:  |             CLK2XSRC              |
+
+; Logic PD L138 EVM with mDDR @132 MHz
+;[EMIF3DDR]
+;PLL1CFG0 = 0x15010001
+;PLL1CFG1 = 0x00000002
+;DDRPHYC1R = 0x000000C4
+;SDCR = 0x0A034622
+;SDTIMR = 0x184929C8
+;SDTIMR2 = 0x380FC700
+;SDRCR = 0x00000407
+;CLK2XSRC = 0x00000000
+
+; Set DDR_PDENA and CMOSEN in DDR_SLEW register of SYSCFG1 module
+; This is needed when using mDDR memory
+;[AIS_Set]
+;TYPE = 0x00050403
+;ADDRESS = 0x01E2C004
+;DATA = 0x00000003
+;SLEEP = 0x00000000
+
+; SDI AM1808 with DDR @150 MHz
+;[EMIF3DDR]
+;PLL1CFG0 = 0x18010001
+;PLL1CFG1 = 0x00000002
+;DDRPHYC1R = 0x000000
+;SDCR = 0x08934832
+;SDTIMR = 0x204929C9
+;SDTIMR2 = 0x0C12C722
+;SDRCR = 0x00000406
+;CLK2XSRC = 0x00000000
+
+; OMAP-L138 LCDK with DDR2 @150MHz
+[EMIF3DDR]
+PLL1CFG0 = 0x18010001
+PLL1CFG1 = 0x00000002
+DDRPHYC1R = 0x000000C5
+SDCR = 0x00134832
+SDTIMR = 0x264a3209
+SDTIMR2 = 0x3c14c722
+SDRCR = 0x00000492
+CLK2XSRC = 0x00000000
+
+; This section should be used to setup the power state of modules
+; of the two PSCs.  This section can be included multiple times to
+; allow the configuration of any or all of the device modules.
+;           |------24|------16|-------8|-------0|
+; LPSCCFG:  | PSCNUM | MODULE |   PD   | STATE  |
+;[PSCCONFIG]
+;LPSCCFG=
+
+; This section allows setting of a single PINMUX register.
+; This section can be included multiple times to allow setting
+; as many PINMUX registers as needed.
+;         |------24|------16|-------8|-------0|
+; REGNUM: |              regNum               |
+; MASK:   |               mask                |
+; VALUE:  |              value                |
+;[PINMUX]
+;REGNUM = 5
+;MASK = 0x00FF0000
+;VALUE = 0x00880000
+
+; No Params required - simply include this section for the fast boot function to be called
+;[FASTBOOT]
+
+; This section allows setting up the PLL1. Usually this will 
+; take place as part of the EMIF3a DDR setup. The format of
+; the input args is as follows:
+;           |------24|------16|-------8|-------0|
+; PLL1CFG0: |    PLLM| POSTDIV| PLLDIV1| PLLDIV2|
+; PLL1CFG1: |           RSVD           | PLLDIV3|
+;[PLL1CONFIG]
+;PLL1CFG0 = 0x15010001
+;PLL1CFG1 = 0x00000002
+
+; This section can be used to configure the PLL1 and the EMIF3a registers
+; for starting the DDR2 interface on ARM-boot D800K002 devices. 
+;            |------24|------16|-------8|-------0|
+; DDRPHYC1R: |             DDRPHYC1R             |
+; SDCR:      |              SDCR                 |
+; SDTIMR:    |              SDTIMR               |
+; SDTIMR2:   |              SDTIMR2              |
+; SDRCR:     |              SDRCR                |
+; CLK2XSRC:  |             CLK2XSRC              |
+;[ARM_EMIF3DDR_PATCHFXN]
+;DDRPHYC1R = 0x000000C4
+;SDCR = 0x0A034622
+;SDTIMR = 0x184929C8
+;SDTIMR2 = 0xB80FC700
+;SDRCR = 0x00000406
+;CLK2XSRC = 0x00000000
+
+; This section can be used to configure the PLL1 and the EMIF3a registers
+; for starting the DDR2 interface on DSP-boot D800K002 devices. 
+;            |------24|------16|-------8|-------0|
+; DDRPHYC1R: |             DDRPHYC1R             |
+; SDCR:      |              SDCR                 |
+; SDTIMR:    |              SDTIMR               |
+; SDTIMR2:   |              SDTIMR2              |
+; SDRCR:     |              SDRCR                |
+; CLK2XSRC:  |             CLK2XSRC              |
+;[DSP_EMIF3DDR_PATCHFXN]
+;DDRPHYC1R = 0x000000C4
+;SDCR = 0x08134632
+;SDTIMR = 0x26922A09
+;SDTIMR2 = 0x0014C722
+;SDRCR = 0x00000492
+;CLK2XSRC = 0x00000000
+
+; Get the NAND ECC patch for the ARM
+[INPUTFILE]
+FILENAME=DSP_nand_ecc_patch_OMAP-L138.out
+
+; Alter the hEccInfo pointer in the NAND_InfoObj structure
+; to patch the NAND ECC handling routine
+[AIS_Jump]
+LOCATION=_NAND_ECC_patchApply
+
+;[AIS_Set]
+;TYPE = INT
+;ADDRESS = 0xFFFF07D0
+;DATA = 0xFFFF0C00
+;SLEEP = 0x00000000

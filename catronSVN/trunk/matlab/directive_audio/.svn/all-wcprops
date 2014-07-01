@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/catronSvn/!svn/ver/169/trunk/matlab/directive_audio
+END
+hrtf.mat
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/catronSvn/!svn/ver/1/trunk/matlab/directive_audio/hrtf.mat
+END
+DAtest.fig
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/catronSvn/!svn/ver/155/trunk/matlab/directive_audio/DAtest.fig
+END
+create_hfiles.m
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/catronSvn/!svn/ver/169/trunk/matlab/directive_audio/create_hfiles.m
+END
+gui.fig
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/catronSvn/!svn/ver/6/trunk/matlab/directive_audio/gui.fig
+END
+write_header_file_from_inc.m
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/catronSvn/!svn/ver/110/trunk/matlab/directive_audio/write_header_file_from_inc.m
+END
+findIR_reverb.m
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/catronSvn/!svn/ver/1/trunk/matlab/directive_audio/findIR_reverb.m
+END
+listenCommands.m
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/catronSvn/!svn/ver/110/trunk/matlab/directive_audio/listenCommands.m
+END
+generate_filters.m
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/catronSvn/!svn/ver/113/trunk/matlab/directive_audio/generate_filters.m
+END
+directive_filter.m
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/catronSvn/!svn/ver/169/trunk/matlab/directive_audio/directive_filter.m
+END
+DAtest.m
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/catronSvn/!svn/ver/155/trunk/matlab/directive_audio/DAtest.m
+END
+gui.m
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/catronSvn/!svn/ver/6/trunk/matlab/directive_audio/gui.m
+END
+write_to_inc.m
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/catronSvn/!svn/ver/110/trunk/matlab/directive_audio/write_to_inc.m
+END

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<configurations XML_version="1.2" id="configurations_0">
+    <configuration XML_version="1.2" id="configuration_0">
+        <instance XML_version="1.2" desc="Texas Instruments XDS2xx USB Emulator" href="connections/TIXDS2XXUSB_Connection.xml" id="Texas Instruments XDS2xx USB Emulator" xml="TIXDS2XXUSB_Connection.xml" xmlpath="connections"/>
+        <connection XML_version="1.2" id="Texas Instruments XDS2xx USB Emulator">
+            <instance XML_version="1.2" href="drivers/tixds560icepick_c.xml" id="drivers" xml="tixds560icepick_c.xml" xmlpath="drivers"/>
+            <instance XML_version="1.2" href="drivers/tixds560c674x.xml" id="drivers" xml="tixds560c674x.xml" xmlpath="drivers"/>
+            <instance XML_version="1.2" href="drivers/tixds560pru.xml" id="drivers" xml="tixds560pru.xml" xmlpath="drivers"/>
+            <instance XML_version="1.2" href="drivers/tixds560arm9.xml" id="drivers" xml="tixds560arm9.xml" xmlpath="drivers"/>
+            <instance XML_version="1.2" href="drivers/tixds560etb11.xml" id="drivers" xml="tixds560etb11.xml" xmlpath="drivers"/>
+            <property Type="choicelist" Value="1" id="The JTAG TCLK Frequency (MHz)"/>
+            <platform XML_version="1.2" id="platform_0">
+                <instance XML_version="1.2" desc="EVMOMAPL138" href="boards/evmomapl138.xml" id="EVMOMAPL138" xml="evmomapl138.xml" xmlpath="boards"/>
+            </platform>
+        </connection>
+    </configuration>
+</configurations>

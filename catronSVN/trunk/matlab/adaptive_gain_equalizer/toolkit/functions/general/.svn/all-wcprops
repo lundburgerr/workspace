@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/catronSvn/!svn/ver/2/trunk/matlab/adaptive_gain_equalizer/toolkit/functions/general
+END
+mfile_header_mbo.m
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/catronSvn/!svn/ver/2/trunk/matlab/adaptive_gain_equalizer/toolkit/functions/general/mfile_header_mbo.m
+END
+active_speech.m
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/catronSvn/!svn/ver/2/trunk/matlab/adaptive_gain_equalizer/toolkit/functions/general/active_speech.m
+END
+arrange_figures.m
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/catronSvn/!svn/ver/2/trunk/matlab/adaptive_gain_equalizer/toolkit/functions/general/arrange_figures.m
+END
+figure_position.m
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/catronSvn/!svn/ver/2/trunk/matlab/adaptive_gain_equalizer/toolkit/functions/general/figure_position.m
+END
+write_to_inc.m
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/catronSvn/!svn/ver/2/trunk/matlab/adaptive_gain_equalizer/toolkit/functions/general/write_to_inc.m
+END
+smoothing.m
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/catronSvn/!svn/ver/2/trunk/matlab/adaptive_gain_equalizer/toolkit/functions/general/smoothing.m
+END
+convs.m
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/catronSvn/!svn/ver/2/trunk/matlab/adaptive_gain_equalizer/toolkit/functions/general/convs.m
+END
+write_float_to_inc.m
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/catronSvn/!svn/ver/2/trunk/matlab/adaptive_gain_equalizer/toolkit/functions/general/write_float_to_inc.m
+END
+read_hex_from_inc.m
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/catronSvn/!svn/ver/2/trunk/matlab/adaptive_gain_equalizer/toolkit/functions/general/read_hex_from_inc.m
+END
+combine_signals.m
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/catronSvn/!svn/ver/2/trunk/matlab/adaptive_gain_equalizer/toolkit/functions/general/combine_signals.m
+END
+sync_signals.m
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/catronSvn/!svn/ver/2/trunk/matlab/adaptive_gain_equalizer/toolkit/functions/general/sync_signals.m
+END
+convs_float.m
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/catronSvn/!svn/ver/2/trunk/matlab/adaptive_gain_equalizer/toolkit/functions/general/convs_float.m
+END
+write_header_file_from_inc.m
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/catronSvn/!svn/ver/2/trunk/matlab/adaptive_gain_equalizer/toolkit/functions/general/write_header_file_from_inc.m
+END

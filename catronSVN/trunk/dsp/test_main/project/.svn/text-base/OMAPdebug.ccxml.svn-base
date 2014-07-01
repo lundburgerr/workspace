@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<configurations XML_version="1.2" id="configurations_0">
+
+
+
+
+
+
+
+
+
+
+<configuration XML_version="1.2" id="Blackhawk XDS560v2-USB System Trace Emulator_0">
+        <instance XML_version="1.2" desc="Blackhawk XDS560v2-USB System Trace Emulator_0" href="connections/BH-XDS560v2-USB_Connection.xml" id="Blackhawk XDS560v2-USB System Trace Emulator_0" xml="BH-XDS560v2-USB_Connection.xml" xmlpath="connections"/>
+        <connection XML_version="1.2" id="Blackhawk XDS560v2-USB System Trace Emulator_0">
+            <instance XML_version="1.2" href="drivers/tixds560icepick_c.xml" id="drivers" xml="tixds560icepick_c.xml" xmlpath="drivers"/>
+            <instance XML_version="1.2" href="drivers/tixds560c674x.xml" id="drivers" xml="tixds560c674x.xml" xmlpath="drivers"/>
+            <property Type="choicelist" Value="1" id="JTAG TCLK Frequency (MHz)">
+                <choice Name="Automatic with user specified limit" value="automatic">
+                    <property Type="stringfield" Value="1MHz" id="-- Enter a value from 0.50MHz to 64.0MHz"/>
+                </choice>
+            </property>
+            <property Type="choicelist" Value="0" id="dataFileRequired"/>
+            <platform XML_version="1.2" id="platform_0">
+                <instance XML_version="1.2" desc="TMS320C6748_0" href="devices/c6748.xml" id="TMS320C6748_0" xml="c6748.xml" xmlpath="devices"/>
+            <device HW_revision="1" XML_version="1.2" description="C674x Floating point DSP" id="TMS320C6748_0" partnum="TMS320C6748" simulation="no">
+                    <router HW_revision="" XML_version="1.2" description="" id="device_0" isa="ICEPICK_C">
+                        <subpath id="device_1">
+                            <cpu HW_revision="" XML_version="1.2" description="" deviceSim="false" id="device_2" isa="TMS320C674X">
+                                <property Type="filepathfield" Value="C6748.gel" id="GEL File"/>
+                            </cpu>
+                        </subpath>
+                    </router>
+                </device>
+            </platform>
+        </connection>
+    </configuration>
+</configurations>

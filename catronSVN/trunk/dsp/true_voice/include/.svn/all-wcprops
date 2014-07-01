@@ -1,0 +1,185 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/catronSvn/!svn/ver/386/trunk/dsp/true_voice/include
+END
+dumpdata.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/catronSvn/!svn/ver/248/trunk/dsp/true_voice/include/dumpdata.h
+END
+lec_general.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/catronSvn/!svn/ver/335/trunk/dsp/true_voice/include/lec_general.h
+END
+malespeech8000.inc
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/catronSvn/!svn/ver/168/trunk/dsp/true_voice/include/malespeech8000.inc
+END
+true_voice_internal.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/catronSvn/!svn/ver/386/trunk/dsp/true_voice/include/true_voice_internal.h
+END
+whiteNoise.inc
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/catronSvn/!svn/ver/279/trunk/dsp/true_voice/include/whiteNoise.inc
+END
+prot_filt.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/catronSvn/!svn/ver/225/trunk/dsp/true_voice/include/prot_filt.h
+END
+rightfront_coefs_right.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/catronSvn/!svn/ver/305/trunk/dsp/true_voice/include/rightfront_coefs_right.h
+END
+lec.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/catronSvn/!svn/ver/334/trunk/dsp/true_voice/include/lec.h
+END
+timers.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/catronSvn/!svn/ver/294/trunk/dsp/true_voice/include/timers.h
+END
+leftback_coefs_left.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/catronSvn/!svn/ver/305/trunk/dsp/true_voice/include/leftback_coefs_left.h
+END
+front_coefs_right.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/catronSvn/!svn/ver/305/trunk/dsp/true_voice/include/front_coefs_right.h
+END
+directive_audio_filter.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/catronSvn/!svn/ver/107/trunk/dsp/true_voice/include/directive_audio_filter.h
+END
+true_voice.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/catronSvn/!svn/ver/381/trunk/dsp/true_voice/include/true_voice.h
+END
+fract_math.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/catronSvn/!svn/ver/266/trunk/dsp/true_voice/include/fract_math.h
+END
+rightback_coefs_right.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/catronSvn/!svn/ver/305/trunk/dsp/true_voice/include/rightback_coefs_right.h
+END
+femalespeech8000.inc
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/catronSvn/!svn/ver/168/trunk/dsp/true_voice/include/femalespeech8000.inc
+END
+plot.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/catronSvn/!svn/ver/348/trunk/dsp/true_voice/include/plot.h
+END
+subband.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/catronSvn/!svn/ver/255/trunk/dsp/true_voice/include/subband.h
+END
+leftfront_coefs_right.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/catronSvn/!svn/ver/305/trunk/dsp/true_voice/include/leftfront_coefs_right.h
+END
+rightfront_coefs_left.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/catronSvn/!svn/ver/305/trunk/dsp/true_voice/include/rightfront_coefs_left.h
+END
+front_coefs_left.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/catronSvn/!svn/ver/305/trunk/dsp/true_voice/include/front_coefs_left.h
+END
+sinewave.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/catronSvn/!svn/ver/230/trunk/dsp/true_voice/include/sinewave.h
+END
+expexpint.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/catronSvn/!svn/ver/209/trunk/dsp/true_voice/include/expexpint.h
+END
+lec2.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/catronSvn/!svn/ver/334/trunk/dsp/true_voice/include/lec2.h
+END
+version.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/catronSvn/!svn/ver/262/trunk/dsp/true_voice/include/version.h
+END
+lec3.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/catronSvn/!svn/ver/334/trunk/dsp/true_voice/include/lec3.h
+END
+leftback_coefs_right.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/catronSvn/!svn/ver/305/trunk/dsp/true_voice/include/leftback_coefs_right.h
+END
+rightback_coefs_left.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/catronSvn/!svn/ver/305/trunk/dsp/true_voice/include/rightback_coefs_left.h
+END
+empty_file_template.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/catronSvn/!svn/ver/7/trunk/dsp/true_voice/include/empty_file_template.h
+END
+leftfront_coefs_left.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/catronSvn/!svn/ver/305/trunk/dsp/true_voice/include/leftfront_coefs_left.h
+END

@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/catronSvn/!svn/ver/329/tags/release_catron_130920/CCSv4-2-4_with_SOM-M1_BSL_WS/DSP%20BSL/Debug/lib
+END
+subdir.mk
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/catronSvn/!svn/ver/329/tags/release_catron_130920/CCSv4-2-4_with_SOM-M1_BSL_WS/DSP%20BSL/Debug/lib/subdir.mk
+END
+ccsSrcs.opt
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/catronSvn/!svn/ver/329/tags/release_catron_130920/CCSv4-2-4_with_SOM-M1_BSL_WS/DSP%20BSL/Debug/lib/ccsSrcs.opt
+END
+subdir_rules.mk
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/catronSvn/!svn/ver/329/tags/release_catron_130920/CCSv4-2-4_with_SOM-M1_BSL_WS/DSP%20BSL/Debug/lib/subdir_rules.mk
+END
+subdir_vars.mk
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/catronSvn/!svn/ver/329/tags/release_catron_130920/CCSv4-2-4_with_SOM-M1_BSL_WS/DSP%20BSL/Debug/lib/subdir_vars.mk
+END

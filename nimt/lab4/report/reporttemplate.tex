@@ -1,0 +1,127 @@
+\documentclass[a4paper]{article}
+\usepackage{amsmath, amsthm, amssymb}
+\usepackage{amsfonts}
+\usepackage[english]{babel}
+\usepackage{fancyhdr}
+\usepackage{graphicx}
+\usepackage{ctable}
+\usepackage{multirow}
+\usepackage{url}
+
+
+%For subfigures
+\usepackage{caption}
+\usepackage{subcaption}
+
+%For FloatBarrier
+\usepackage{placeins}
+
+
+\let\oldAuthor\author
+
+
+\renewcommand{\author}[1]{\newcommand{\myAuthor}{#1}\oldAuthor{#1}} 
+\begin{document}
+%---------------------------------------------------------
+%Fill in:
+%1. Title of lab. 
+%2. Student names and corresponding Email addresses. If many separate 
+%---------------------------------------------------------
+\title{Measurement of Heat Expansion 
+by an Interferometer.}
+\author{Robin Lundberg (rolu0008@student.umu.se) \\ 
+				Tobias Dahlberg (toda0006@gmail.com)} 
+\date{} %<-- \usepackage{amssymb, graphicx, fancyheadings} LEAVE EMPTY! 
+\begin{titlepage}
+\maketitle 
+%---------------------------------------------------------
+%Fill in:
+%1. Course name
+%2. Supervisor name(s), if many separate them by comma.
+%-----------------------
+----------------------------------
+\thispagestyle{fancy}
+\headheight 20pt 
+\lhead{\small Department of Physics \\ Ume\aa\ University}
+\rhead{\small\today}
+\cfoot{Non-Invasive Measurement Techniques \\ Supervisors: Aleksandra Foltynowicz-Matyba, Bertil Sundqvist, Isak Silander, Patrick Ehlers, Amir Khodabakhsh}
+\begin{abstract}
+	\input{abstract}
+\end{abstract}
+\end{titlepage}
+\pagestyle{fancy}
+\headheight 35pt 
+\rhead{\small\today}
+\lhead{\myAuthor}
+\cfoot{\thepage}
+
+
+%\tableofcontents
+
+\newpage
+\section{Introduction}\label{sec:introduction}
+\input{introduction}
+
+
+\FloatBarrier
+\section{Theory}\label{sec:theory}
+\input{theory}
+
+\FloatBarrier
+\section{Experimental}\label{sec:experimental}
+\input{experimental}
+
+\FloatBarrier
+\section{Results}\label{sec:results}
+\input{results}
+
+\FloatBarrier
+\section{Discussion}\label{discussion}
+\input{discussion}
+
+\FloatBarrier
+\section{Conclusions}\label{sec:conclusions}
+\input{conclusions}
+
+%\begin{appendix}
+%
+%\section{Appendix section 1}
+%%Here you can put additional data of importance Labview or Matlab codes,
+%%additional equations and derivations etc.
+%%Do not add long tables of raw data. 
+%%
+%%For programming code like Matlab you need to use a font where 
+%%all letters are equally wide. Use the verbatim environment.
+%%
+%%\begin{verbatim}
+%%	Paste code here! 
+%%\end{verbatim}
+%
+%\section{Appendix section 2} 
+%	
+%\end{appendix}
+
+\bibliographystyle{plain}
+
+\begin{thebibliography}{99}
+	%Vink, G. E., Morgan, W. J., and Vogt, P. R., 1985, The Earth's hot spots, Scientific American, v. 252, p. 50- 57.
+%	\bibitem{Franca05} Franca, J.G.D.M.; Gazziro, M.A.; Ide, A.N.; Saito, J.H.; 2005, A 3D scanning system based on laser triangulation and variable field of view, \emph{IEEE International Conference On Image Processing}, v.1 p.859-866.
+%	
+%	\bibitem{Matthies97} Matthies, L., Balch, T. and Wilcox, B, 1997, Fast optical hazard detection for planetary rovers using multiple spot laser triangulation, \emph{IEEE International Conference On Robotics And Automation}, I-425-8.
+%
+%	\bibitem{Okkerse00} Okkerse W.J.H., Ottengraf S.P.P., Osinga-Kuipers B., 2000, Biofilm thickness variability investigated with a laser triangulation sensor, \emph{Biotechnology and Bioengineering} v.70 p.619-629.	
+	%\bibitem{ref2} author1 and author2, Book title, Publisher, Country, (year) . 
+		
+%	\bibitem{coilImpedance} An introduction to Eddy Current Testing, Jospeh M. Buckley, \url{http://joe.buckley.net/papers/eddyc.pdf}(2013/Dec/06) 
+%
+%	\bibitem{eddyCurrent} Non-Destructive Techniques Based on Eddy Current Testing, Javier García-Martín et al., \url{http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3231639/}(2013/Dec/06) 
+%
+%	\bibitem{feromagnetism} Magnetische Permeabilität der ferromagnetischen Metalle bei sehr hoher Frequenz, G. Potapengo., \url{http://download.springer.com/static/pdf/156/art\%253A10.1007\%252FBF01504219.pdf?auth66=1386496540_e2473c0e5366f59d74fc10eeb80accef&ext=.pdf}(2013/Dec/06)
+%	
+%		\bibitem{deedsdodd} C. V. Dodd, W. E. Deeds, 1968, Analytical Solutions to Eddy-Current Probe-Coil Problems, \emph{Journal of applied physics} v.39 p.2829-2838.
+\bibitem{coff} Thermal expansion coefficient, \url{http://en.m.wikipedia.org/wiki/Thermal_expansion_coefficients_of_the_elements_(data_page)}, (\today).
+\end{thebibliography}
+
+
+
+\end{document}

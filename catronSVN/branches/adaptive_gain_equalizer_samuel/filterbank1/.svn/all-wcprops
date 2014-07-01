@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/catronSvn/!svn/ver/119/branches/adaptive_gain_equalizer_samuel/filterbank1
+END
+MeasureAliasDist.m
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/catronSvn/!svn/ver/119/branches/adaptive_gain_equalizer_samuel/filterbank1/MeasureAliasDist.m
+END
+filter64_256.mat
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/catronSvn/!svn/ver/119/branches/adaptive_gain_equalizer_samuel/filterbank1/filter64_256.mat
+END
+FreqGridMat.m
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/catronSvn/!svn/ver/119/branches/adaptive_gain_equalizer_samuel/filterbank1/FreqGridMat.m
+END
+PolyPhaseMat.m
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/catronSvn/!svn/ver/119/branches/adaptive_gain_equalizer_samuel/filterbank1/PolyPhaseMat.m
+END
+create_prototype_filter_1.asv
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/catronSvn/!svn/ver/119/branches/adaptive_gain_equalizer_samuel/filterbank1/create_prototype_filter_1.asv
+END
+IterLSDesign.m
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/catronSvn/!svn/ver/119/branches/adaptive_gain_equalizer_samuel/filterbank1/IterLSDesign.m
+END
+filter128_512.mat
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/catronSvn/!svn/ver/119/branches/adaptive_gain_equalizer_samuel/filterbank1/filter128_512.mat
+END
+create_prototype_filter_1.m
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/catronSvn/!svn/ver/119/branches/adaptive_gain_equalizer_samuel/filterbank1/create_prototype_filter_1.m
+END

@@ -1,0 +1,119 @@
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/catronSvn/!svn/ver/391/trunk/matlab/adaptive_gain_equalizer
+END
+calculate_snr.m
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/catronSvn/!svn/ver/2/trunk/matlab/adaptive_gain_equalizer/calculate_snr.m
+END
+speech4.mat
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/catronSvn/!svn/ver/2/trunk/matlab/adaptive_gain_equalizer/speech4.mat
+END
+2013-03-27 - Airplane_Noise97dBA_at_50cm.wav
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/catronSvn/!svn/ver/2/trunk/matlab/adaptive_gain_equalizer/2013-03-27%20-%20Airplane_Noise97dBA_at_50cm.wav
+END
+2013-03-27 - Loud_Speech.wav
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/catronSvn/!svn/ver/2/trunk/matlab/adaptive_gain_equalizer/2013-03-27%20-%20Loud_Speech.wav
+END
+2013-03-27 - Original_Speech.wav
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/catronSvn/!svn/ver/2/trunk/matlab/adaptive_gain_equalizer/2013-03-27%20-%20Original_Speech.wav
+END
+catron.m
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/catronSvn/!svn/ver/2/trunk/matlab/adaptive_gain_equalizer/catron.m
+END
+Airplane_Noise2.pk
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/catronSvn/!svn/ver/2/trunk/matlab/adaptive_gain_equalizer/Airplane_Noise2.pk
+END
+2013-03-27 - Original_Noise.wav
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/catronSvn/!svn/ver/2/trunk/matlab/adaptive_gain_equalizer/2013-03-27%20-%20Original_Noise.wav
+END
+filter128_512.mat
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/catronSvn/!svn/ver/2/trunk/matlab/adaptive_gain_equalizer/filter128_512.mat
+END
+2013-03-27 - Airplane_Noise97dBA_at_50cm.pk
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/catronSvn/!svn/ver/2/trunk/matlab/adaptive_gain_equalizer/2013-03-27%20-%20Airplane_Noise97dBA_at_50cm.pk
+END
+arrange_figures.m
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/catronSvn/!svn/ver/2/trunk/matlab/adaptive_gain_equalizer/arrange_figures.m
+END
+mos_drt_robin_120dbA_zon3.wav
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/catronSvn/!svn/ver/390/trunk/matlab/adaptive_gain_equalizer/mos_drt_robin_120dbA_zon3.wav
+END
+2013-03-27 10.58.56.jpg
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/catronSvn/!svn/ver/2/trunk/matlab/adaptive_gain_equalizer/2013-03-27%2010.58.56.jpg
+END
+figure_position.m
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/catronSvn/!svn/ver/2/trunk/matlab/adaptive_gain_equalizer/figure_position.m
+END
+2013-03-27 - White_Noise96,5dBA_at_50cm.wav
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/catronSvn/!svn/ver/2/trunk/matlab/adaptive_gain_equalizer/2013-03-27%20-%20White_Noise96,5dBA_at_50cm.wav
+END
+noice_reduction.m
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/catronSvn/!svn/ver/3/trunk/matlab/adaptive_gain_equalizer/noice_reduction.m
+END
+2013-03-27 - Normal_Speech.wav
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/catronSvn/!svn/ver/2/trunk/matlab/adaptive_gain_equalizer/2013-03-27%20-%20Normal_Speech.wav
+END
+startMotorPrat8k.wav
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/catronSvn/!svn/ver/390/trunk/matlab/adaptive_gain_equalizer/startMotorPrat8k.wav
+END
+Airplane_Noise2.wav
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/catronSvn/!svn/ver/2/trunk/matlab/adaptive_gain_equalizer/Airplane_Noise2.wav
+END

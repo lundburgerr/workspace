@@ -1,0 +1,49 @@
+Wav file info																	Method	iSNR	oSNR	SDI		SR		NR
+.\signals\p501_2female_2male_ver2.wav_car_sGain6_nGain7.75_SNR-0.0022354_75s	SBA 	-0.00	 5.81	-6.42	 3.53	 9.35
+.\signals\p501_2female_2male_ver2.wav_car_sGain6_nGain7.75_SNR-0.0022354_75s	Prop	-0.00	 5.11	-7.31	 3.03	 8.14
+---------------------------------------------------------
+.\signals\p501_2female_2male_ver2.wav_car_sGain6_nGain1.75_SNR5.9978_75s		SBA 	 6.00	11.26	-9.29	 1.97	 7.23
+.\signals\p501_2female_2male_ver2.wav_car_sGain6_nGain1.75_SNR5.9978_75s		Prop	 6.00	10.33	-10.87	 1.50	 5.83
+---------------------------------------------------------
+.\signals\p501_2female_2male_ver2.wav_car_sGain6_nGain-4.25_SNR11.9978_75s		SBA 	12.00	15.52	-13.85	 0.78	 4.30
+.\signals\p501_2female_2male_ver2.wav_car_sGain6_nGain-4.25_SNR11.9978_75s		Prop	12.00	14.45	-16.61	 0.49	 2.94
+---------------------------------------------------------
+.\signals\p501_2female_2male_ver2.wav_car_sGain6_nGain-10.25_SNR17.9978_75s		SBA 	18.00	19.36	-21.18	 0.20	 1.56
+.\signals\p501_2female_2male_ver2.wav_car_sGain6_nGain-10.25_SNR17.9978_75s		Prop	18.00	18.62	-25.29	 0.08	 0.69
+---------------------------------------------------------
+.\signals\p501_2female_2male_ver2.wav_car_sGain6_nGain-16.25_SNR23.9978_75s		SBA 	24.00	24.34	-30.21	 0.02	 0.37
+.\signals\p501_2female_2male_ver2.wav_car_sGain6_nGain-16.25_SNR23.9978_75s		Prop	24.00	24.18	-32.02	 0.01	 0.19
+---------------------------------------------------------
+.\signals\p501_2female_2male_ver2.wav_comp_sGain6_nGain5.75_SNR-0.062267_75s	SBA 	-0.06	 7.23	-8.89	 2.04	 9.33
+.\signals\p501_2female_2male_ver2.wav_comp_sGain6_nGain5.75_SNR-0.062267_75s	Prop	-0.06	 6.44	-9.92	 1.69	 8.19
+---------------------------------------------------------
+.\signals\p501_2female_2male_ver2.wav_comp_sGain6_nGain-0.25_SNR5.9377_75s		SBA 	 5.94	13.21	-12.13	 0.96	 8.23
+.\signals\p501_2female_2male_ver2.wav_comp_sGain6_nGain-0.25_SNR5.9377_75s		Prop	 5.94	11.97	-13.51	 0.74	 6.78
+---------------------------------------------------------
+.\signals\p501_2female_2male_ver2.wav_comp_sGain6_nGain-6.25_SNR11.9377_75s		SBA 	11.94	17.56	-15.30	 0.51	 6.13
+.\signals\p501_2female_2male_ver2.wav_comp_sGain6_nGain-6.25_SNR11.9377_75s		Prop	11.94	15.96	-17.33	 0.39	 4.41
+---------------------------------------------------------
+.\signals\p501_2female_2male_ver2.wav_comp_sGain6_nGain-12.25_SNR17.9377_75s	SBA 	17.94	20.49	-20.98	 0.21	 2.77
+.\signals\p501_2female_2male_ver2.wav_comp_sGain6_nGain-12.25_SNR17.9377_75s	Prop	17.94	19.16	-24.73	 0.10	 1.32
+---------------------------------------------------------
+.\signals\p501_2female_2male_ver2.wav_comp_sGain6_nGain-18.25_SNR23.9377_75s	SBA 	23.94	24.32	-31.30	 0.02	 0.40
+.\signals\p501_2female_2male_ver2.wav_comp_sGain6_nGain-18.25_SNR23.9377_75s	Prop	23.94	24.11	-33.04	 0.01	 0.18
+---------------------------------------------------------
+.\signals\p501_2female_2male_ver2.wav_vent_sGain6_nGain4.75_SNR0.35991_75s		SBA 	 0.36	 7.28	-8.85	 2.04	 8.96
+.\signals\p501_2female_2male_ver2.wav_vent_sGain6_nGain4.75_SNR0.35991_75s		Prop	 0.36	 6.52	-9.95	 1.71	 7.87
+---------------------------------------------------------
+.\signals\p501_2female_2male_ver2.wav_vent_sGain6_nGain-1.25_SNR6.3599_75s		SBA 	 6.36	12.94	-12.16	 0.96	 7.54
+.\signals\p501_2female_2male_ver2.wav_vent_sGain6_nGain-1.25_SNR6.3599_75s		Prop	 6.36	11.90	-13.64	 0.73	 6.27
+---------------------------------------------------------
+.\signals\p501_2female_2male_ver2.wav_vent_sGain6_nGain-7.25_SNR12.3599_75s		SBA 	12.36	17.20	-15.62	 0.49	 5.33
+.\signals\p501_2female_2male_ver2.wav_vent_sGain6_nGain-7.25_SNR12.3599_75s		Prop	12.36	15.97	-17.59	 0.37	 3.98
+---------------------------------------------------------
+.\signals\p501_2female_2male_ver2.wav_vent_sGain6_nGain-13.25_SNR18.3599_75s	SBA 	18.36	20.34	-22.02	 0.18	 2.16
+.\signals\p501_2female_2male_ver2.wav_vent_sGain6_nGain-13.25_SNR18.3599_75s	Prop	18.36	19.40	-25.46	 0.08	 1.12
+---------------------------------------------------------
+.\signals\p501_2female_2male_ver2.wav_vent_sGain6_nGain-19.25_SNR24.3599_75s	SBA 	24.36	24.65	-32.53	 0.01	 0.31
+.\signals\p501_2female_2male_ver2.wav_vent_sGain6_nGain-19.25_SNR24.3599_75s	Prop	24.36	24.54	-33.04	 0.01	 0.19
+---------------------------------------------------------
+
+Här började jag ändra beta så att den är samma för SBA och Prop
+

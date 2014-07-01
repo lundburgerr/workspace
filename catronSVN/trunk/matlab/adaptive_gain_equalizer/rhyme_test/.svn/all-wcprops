@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/catronSvn/!svn/ver/373/trunk/matlab/adaptive_gain_equalizer/rhyme_test
+END
+playRhyme.m
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/catronSvn/!svn/ver/358/trunk/matlab/adaptive_gain_equalizer/rhyme_test/playRhyme.m
+END
+playDRT.m
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/catronSvn/!svn/ver/371/trunk/matlab/adaptive_gain_equalizer/rhyme_test/playDRT.m
+END
+exampleRhyme.m
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/catronSvn/!svn/ver/97/trunk/matlab/adaptive_gain_equalizer/rhyme_test/exampleRhyme.m
+END
+exampleRhyme2.m
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/catronSvn/!svn/ver/98/trunk/matlab/adaptive_gain_equalizer/rhyme_test/exampleRhyme2.m
+END
+guiRhyme.fig
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/catronSvn/!svn/ver/89/trunk/matlab/adaptive_gain_equalizer/rhyme_test/guiRhyme.fig
+END
+rhymetest.m
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/catronSvn/!svn/ver/373/trunk/matlab/adaptive_gain_equalizer/rhyme_test/rhymetest.m
+END
+write_to_dat.m
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/catronSvn/!svn/ver/361/trunk/matlab/adaptive_gain_equalizer/rhyme_test/write_to_dat.m
+END
+makedat.m
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/catronSvn/!svn/ver/361/trunk/matlab/adaptive_gain_equalizer/rhyme_test/makedat.m
+END
+guiRhyme.m
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/catronSvn/!svn/ver/373/trunk/matlab/adaptive_gain_equalizer/rhyme_test/guiRhyme.m
+END

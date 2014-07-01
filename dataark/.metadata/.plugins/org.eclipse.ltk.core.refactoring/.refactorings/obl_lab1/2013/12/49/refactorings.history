@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;obl_lab1/main.h&apos; to &apos;mips.h&apos;" description="Rename resource &apos;main.h&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="main.h" name="mips.h" stamp="1386166483132" updateReferences="true"/>
+</session>

@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/catronSvn/!svn/ver/329/tags/release_catron_130920/true_voice/src
+END
+lec.c
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/catronSvn/!svn/ver/329/tags/release_catron_130920/true_voice/src/lec.c
+END
+timers.c
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/catronSvn/!svn/ver/329/tags/release_catron_130920/true_voice/src/timers.c
+END
+mixer.c
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/catronSvn/!svn/ver/329/tags/release_catron_130920/true_voice/src/mixer.c
+END
+true_voice.c
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/catronSvn/!svn/ver/329/tags/release_catron_130920/true_voice/src/true_voice.c
+END
+volume.c
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/catronSvn/!svn/ver/329/tags/release_catron_130920/true_voice/src/volume.c
+END
+empty_file_template.c
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/catronSvn/!svn/ver/329/tags/release_catron_130920/true_voice/src/empty_file_template.c
+END
+noise_reduction.c
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/catronSvn/!svn/ver/329/tags/release_catron_130920/true_voice/src/noise_reduction.c
+END
+agc.c
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/catronSvn/!svn/ver/329/tags/release_catron_130920/true_voice/src/agc.c
+END
+dtmf.c
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/catronSvn/!svn/ver/329/tags/release_catron_130920/true_voice/src/dtmf.c
+END
+plot.c
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/catronSvn/!svn/ver/329/tags/release_catron_130920/true_voice/src/plot.c
+END
+subband.c
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/catronSvn/!svn/ver/329/tags/release_catron_130920/true_voice/src/subband.c
+END
+directive_audio.c
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/catronSvn/!svn/ver/329/tags/release_catron_130920/true_voice/src/directive_audio.c
+END
+dumpdata.c
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/catronSvn/!svn/ver/329/tags/release_catron_130920/true_voice/src/dumpdata.c
+END
+interface.c
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/catronSvn/!svn/ver/329/tags/release_catron_130920/true_voice/src/interface.c
+END

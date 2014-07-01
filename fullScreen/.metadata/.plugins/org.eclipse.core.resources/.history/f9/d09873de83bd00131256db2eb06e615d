@@ -1,0 +1,15 @@
+//============================================================================
+// Name        : fullScreen.cpp
+// Author      : Robin Lundberg
+// Version     :
+// Copyright   : give me creds
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+using namespace std;
+
+int main() {
+	cout << "!!!Hello World!!!" << endl; // prints !!!Hello World!!!
+	return 0;
+}

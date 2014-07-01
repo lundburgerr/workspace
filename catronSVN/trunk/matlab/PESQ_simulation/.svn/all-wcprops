@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/catronSvn/!svn/ver/361/trunk/matlab/PESQ_simulation
+END
+LUF_snr.m
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/catronSvn/!svn/ver/354/trunk/matlab/PESQ_simulation/LUF_snr.m
+END
+LUF_MOS_mix_post_True_Voice.m
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/catronSvn/!svn/ver/354/trunk/matlab/PESQ_simulation/LUF_MOS_mix_post_True_Voice.m
+END
+urklippt_startMotor_ronneby_50HzFiltered.wav
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/catronSvn/!svn/ver/354/trunk/matlab/PESQ_simulation/urklippt_startMotor_ronneby_50HzFiltered.wav
+END
+LUF_MOS_mix_pre_True_Voice.m
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/catronSvn/!svn/ver/354/trunk/matlab/PESQ_simulation/LUF_MOS_mix_pre_True_Voice.m
+END
+urklippt_tal_filt50Hz.wav
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/catronSvn/!svn/ver/354/trunk/matlab/PESQ_simulation/urklippt_tal_filt50Hz.wav
+END
+active_speech.m
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/catronSvn/!svn/ver/354/trunk/matlab/PESQ_simulation/active_speech.m
+END
+speech_and_noise_ref_8kHz.inc
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/catronSvn/!svn/ver/356/trunk/matlab/PESQ_simulation/speech_and_noise_ref_8kHz.inc
+END
+calc_snr.m
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/catronSvn/!svn/ver/354/trunk/matlab/PESQ_simulation/calc_snr.m
+END
+speech_and_noise_headset_8kHz.inc
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/catronSvn/!svn/ver/356/trunk/matlab/PESQ_simulation/speech_and_noise_headset_8kHz.inc
+END
+write_to_inc.m
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/catronSvn/!svn/ver/354/trunk/matlab/PESQ_simulation/write_to_inc.m
+END
+smoothing.m
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/catronSvn/!svn/ver/354/trunk/matlab/PESQ_simulation/smoothing.m
+END

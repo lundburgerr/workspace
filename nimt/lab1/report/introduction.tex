@@ -1,0 +1,26 @@
+%1. The problem in general: determine movement, what methods is there. Mention non-invasive
+One way to determine the small movements of objects, is to attach an accelerometer or similar 
+electronics on the object. 
+But the problem with this method is that the sensor itself will affect the object---it is an invasive method. Ideally we want to use a measuring technique that is \emph{non-invasive}.
+One way to accomplish this is to use the laser triangulation technique.
+
+%2. Describe how laser triangulation works
+The laser triangulation technique works by pointing a laser at the moving object and then collect the scattered light onto some detector. From this the position of the object can be determined at different times; the choice of detector depends on the application. 
+%3. How good is laser triangulation today? accuracy etc.
+But in general this technique can today offer resolution in distance of $\sim nm$ %TODO insert reference
+and measure frequencies of up to $\sim 100kHz$. %TODO insert reference
+
+%4. Other applications
+The laser triangulation technique has a wide area of application
+including a 3D-scanning device \cite{Franca05},
+biofilm thickness measurements \cite{Okkerse00} and fast optical hazard detection for planetary rovers \cite{Matthies97}.
+%5. Limitations
+The limitations of this technique mostly depends on what detectors you use but in general the system
+can be expensive with sensors and laser costing several \$100 or \$1000. The system might also be rather large and not suited for measurements outside the laboratory.
+
+%6. Our specific problem
+In this lab we applied this technique to measure a tuning fork to determine the following properties: main frequency, harmonic frequencies and amplitude.
+As a detector we used a \emph{position sensitive detector} (PSD). The PSD outputs
+the position of the incident light on the PSD.
+The advantages of this sensor is that it can measure very high frequencies and very fast. The resolution of the sensor is $\sim 10\mu m$ and it's also very easy to use in electronics.%TODO Check the values for the resolution in the datasheet
+The main disadvantage with this sensor is that the position is determined by some moving average of the intensity of light hitting it; so if the beam is not symmetric in two dimensions, but warped in some way; this can give erroneous results for the position.

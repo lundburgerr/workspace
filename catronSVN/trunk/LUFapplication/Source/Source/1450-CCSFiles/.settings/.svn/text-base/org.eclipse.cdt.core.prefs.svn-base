@@ -1,0 +1,11 @@
+eclipse.preferences.version=1
+environment/project/com.ti.ccstudio.buildDefinitions.TMS470.Debug.1651158957/STARTWARE_ROOT/delimiter=;
+environment/project/com.ti.ccstudio.buildDefinitions.TMS470.Debug.1651158957/STARTWARE_ROOT/operation=replace
+environment/project/com.ti.ccstudio.buildDefinitions.TMS470.Debug.1651158957/STARTWARE_ROOT/value=${PROJECT_ROOT}\\1450-SystemOMAP\\Starterware\\
+environment/project/com.ti.ccstudio.buildDefinitions.TMS470.Debug.1651158957/append=true
+environment/project/com.ti.ccstudio.buildDefinitions.TMS470.Debug.1651158957/appendContributed=true
+environment/project/com.ti.ccstudio.buildDefinitions.TMS470.Release.339536516/STARTWARE_ROOT/delimiter=;
+environment/project/com.ti.ccstudio.buildDefinitions.TMS470.Release.339536516/STARTWARE_ROOT/operation=replace
+environment/project/com.ti.ccstudio.buildDefinitions.TMS470.Release.339536516/STARTWARE_ROOT/value=${PROJECT_ROOT}\\1450-SystemOMAP\\Starterware\\
+environment/project/com.ti.ccstudio.buildDefinitions.TMS470.Release.339536516/append=true
+environment/project/com.ti.ccstudio.buildDefinitions.TMS470.Release.339536516/appendContributed=true

@@ -1,0 +1,165 @@
+/*
+ * main.h
+ *
+ *  Created on: Nov 18, 2013
+ *      Author: lundburgerr
+ */
+
+#ifndef MAIN_H_
+#define MAIN_H_
+
+#define INSTRUCTION_LENGTH 32
+#define EMPTY_FIELD -2
+#define REGISTER_FIELD -1
+
+enum format{R, I, J, INVALIDOP};
+
+//Add format type
+struct funccode_t{
+	int funcnum;
+	char name[];
+	int rs;
+	int rt;
+	int rd;
+	int shamt;
+	int immediate;
+	int fs;
+};
+struct opcode_t{
+	enum format type;
+	int opnum;
+	struct funccode_t func[];
+};
+
+char registers[32][] = {"$zero", "$at", "$v0", "$v1", "$a0", "$a1", "$a2", "$a0", \
+		"$t0", "$t1", "$t2", "$t3", "$t4", "$t5", "$t6", "$t7", \
+		"$s0", "$s0", "$s0", "$s0", "$s0", "$s0", "$s0", "$s0", \
+		"$t8", "$t9", "$k0", "$k1", "$gp", "$sp", "$fp", "$ra"
+};
+
+struct opcode_t operations[] =
+{
+		{R, 0x0,
+				{0x0, "sll"},
+				{0x1, "movf"},
+				{0x2, "srl"},
+				{0x3, "sra"},
+				{0x4, "sllv"},
+				{0x6, "srlv"},
+				{0x7, "srav"},
+				{0x8, "jr"},
+				{0x9, "jalr"},
+				{0xa, "movz"},
+				{0xb, "movn"},
+				{0x10, "mfhi"},
+				{0x11, "mthi"},
+				{0x12, "mflo"},
+				{0x13, "mtlo"},
+				{0x18, "mult"},
+				{0x19, "multu"},
+				{0x1a, "div"},
+				{0x1b, "divu"},
+				{0x20, "add"},
+				{0x21, "addu"},
+				{0x22, "sub"},
+				{0x23, "subu"},
+				{0x24, "and"},
+				{0x25, "or"},
+				{0x26, "xor"},
+				{0x27, "nor"},
+				{0x2a, "slt"},
+				{0x2b, "sltu"},
+				{0x30, "tge"},
+				{0x31, "tgeu"},
+				{0x32, "tlt"},
+				{0x33, "tltu"},
+				{0x34, "teq"},
+				{0x36, "tne"},
+		},
+		{I, 0x1,
+				{0x0, "bltz"},
+				{0x8, "tgei"},
+				{0x9, "tgeiu"},
+				{0xa, "tlti"},
+				{0xb, "tltiu"},
+				{0xc, "teqi"},
+				{0xe, "tnei"},
+		},
+		{J, 0x2, {0, "j"}},
+		{J, 0x3, {0, "jal"}},
+		{I, 0x4, {0, "beq"}},
+		{I, 0x5, {0, "bne"}},
+		{I, 0x6, {0, "blez"}},
+		{I, 0x7, {0, "bgtz"}},
+		{I, 0x8, {0, "addi"}},
+		{I, 0x9, {0, "addiu"}},
+		{I, 0xa, {0, "slti"}},
+		{I, 0xb, {0, "sltiu"}},
+		{I, 0xc, {0, "andi"}},
+		{I, 0xd, {0, "ori"}},
+		{I, 0xe, {0, "xori"}},
+		{I, 0xf, {0, "lui"}},
+		{INVALIDOP, 0x10},
+		{I, 0x11,
+				{0x0, "bclf"},
+				{0x1, "bclt"},
+				{0x0, "mfcl"},
+				{0x4, "mtcl"},
+		},
+		{INVALIDOP, 0x12},
+		{INVALIDOP, 0x13},
+		{INVALIDOP, 0x14},
+		{INVALIDOP, 0x15},
+		{INVALIDOP, 0x16},
+		{INVALIDOP, 0x17},
+		{INVALIDOP, 0x18},
+		{INVALIDOP, 0x19},
+		{INVALIDOP, 0x1a},
+		{INVALIDOP, 0x1b},
+		{R, 0x1c,
+				{0x21, "clo"},
+				{0x20, "clz"},
+				{0x2, "mul"},
+				{0x0, "madd"},
+				{0x1, "maddu"},
+				{0x4, "msub"},
+				{0x5, "msubu"}
+		},
+		{INVALIDOP, 0x1d},
+		{INVALIDOP, 0x1e},
+		{INVALIDOP, 0x1f},
+		{I, 0x20, {0, "lb"}},
+		{I, 0x21, {0, "lh"}},
+		{I, 0x22, {0, "lwl"}},
+		{I, 0x23, {0, "lw"}},
+		{I, 0x24, {0, "lbu"}},
+		{I, 0x25, {0, "lhu"}},
+		{I, 0x26, {0, "lwr"}},
+		{INVALIDOP, 0x27},
+		{I, 0x28, {0, "sb"}},
+		{I, 0x29, {0, "sh"}},
+		{I, 0x2a, {0, "swl"}},
+		{I, 0x2b, {0, "sw"}},
+		{INVALIDOP, 0x2c},
+		{INVALIDOP, 0x2d},
+		{I, 0x2e, {0, "swr"}},
+		{INVALIDOP, 0x2f},
+		{INVALIDOP, 0x30},
+		{I, 0x31, {0, "lwc1"}},
+		{INVALIDOP, 0x32},
+		{INVALIDOP, 0x33},
+		{INVALIDOP, 0x34},
+		{INVALIDOP, 0x35},
+		{INVALIDOP, 0x36},
+		{INVALIDOP, 0x37},
+		{I, 0x38, {0, "sc"}},
+		{I, 0x39, {0, "swc1"}},
+		{INVALIDOP, 0x3a},
+		{INVALIDOP, 0x3b},
+		{INVALIDOP, 0x3c},
+		{I, 0x3d, {0, "sdc1"}},
+
+};
+
+
+#endif /* MAIN_H_ */

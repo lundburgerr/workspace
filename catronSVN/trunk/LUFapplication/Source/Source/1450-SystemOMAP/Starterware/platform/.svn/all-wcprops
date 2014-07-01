@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/catronSvn/!svn/ver/103/trunk/LUFapplication/Source/Source/1450-SystemOMAP/Starterware/platform
+END
+edma.c
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/catronSvn/!svn/ver/103/trunk/LUFapplication/Source/Source/1450-SystemOMAP/Starterware/platform/edma.c
+END
+spi.c
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/catronSvn/!svn/ver/103/trunk/LUFapplication/Source/Source/1450-SystemOMAP/Starterware/platform/spi.c
+END
+uart.c
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/catronSvn/!svn/ver/103/trunk/LUFapplication/Source/Source/1450-SystemOMAP/Starterware/platform/uart.c
+END

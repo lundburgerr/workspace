@@ -1,0 +1,6 @@
+14:00:03 **** Incremental Build of configuration Debug for project fullScreen ****
+make all 
+make: Nothing to be done for `all'.
+
+14:00:03 Build Finished (took 63ms)
+

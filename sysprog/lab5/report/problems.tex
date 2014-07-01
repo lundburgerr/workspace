@@ -1,0 +1,2 @@
+Det var väldigt svårt att få till synkronisering mellan trådar så att dom avslutar när dom är färdig;
+det tog mer tid än allt annat. Från början hade jag tänkt använda mig av semaforer men så vitt jag vet inte fanns inte så kallade \emph{counting semaphores} implementerade, dvs. semaforerna kunde inte räkna upp till mer än ett. Vilket är ett problem om du exempelvis vill utnyttja dom för att hålla koll på antalet tasks som finns i taskpoolen; det jag istället gjorde var att använda mutexar och globala variabler.

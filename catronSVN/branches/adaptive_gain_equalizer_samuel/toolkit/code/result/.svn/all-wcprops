@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/catronSvn/!svn/ver/119/branches/adaptive_gain_equalizer_samuel/toolkit/code/result
+END
+convertFigure.bat
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/catronSvn/!svn/ver/119/branches/adaptive_gain_equalizer_samuel/toolkit/code/result/convertFigure.bat
+END
+result3.eps
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/catronSvn/!svn/ver/119/branches/adaptive_gain_equalizer_samuel/toolkit/code/result/result3.eps
+END
+result4.eps
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/catronSvn/!svn/ver/119/branches/adaptive_gain_equalizer_samuel/toolkit/code/result/result4.eps
+END
+pdftops.exe
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/catronSvn/!svn/ver/119/branches/adaptive_gain_equalizer_samuel/toolkit/code/result/pdftops.exe
+END
+s_sn_mWest_mOur.wav
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/catronSvn/!svn/ver/119/branches/adaptive_gain_equalizer_samuel/toolkit/code/result/s_sn_mWest_mOur.wav
+END
+FIG1A__s_sn_m1_m3.wav
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/catronSvn/!svn/ver/119/branches/adaptive_gain_equalizer_samuel/toolkit/code/result/FIG1A__s_sn_m1_m3.wav
+END
+resultMOS.png
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/catronSvn/!svn/ver/119/branches/adaptive_gain_equalizer_samuel/toolkit/code/result/resultMOS.png
+END
+createFiguresMain.bat
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/catronSvn/!svn/ver/119/branches/adaptive_gain_equalizer_samuel/toolkit/code/result/createFiguresMain.bat
+END

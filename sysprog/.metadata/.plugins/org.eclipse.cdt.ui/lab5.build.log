@@ -1,0 +1,6 @@
+16:03:30 **** Incremental Build of configuration mfind_p for project lab5 ****
+make mfind_p 
+gcc -g -Wall -o mfind_p mfind_p.c -lpcre -lpthread
+
+16:03:31 Build Finished (took 166ms)
+

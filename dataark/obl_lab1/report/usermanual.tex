@@ -1,0 +1,19 @@
+%1. How to compile the program
+To compile the disassembler, run \texttt{make dismips}.
+%2. How to run the program
+Run the disassembler by executing the command \texttt{dismips file}.
+Where \texttt{file} is the path to the file containing the MIPS32 machine code to be disassembled.
+The disassembler supports all instructions except those with op-code 16, 17 and 18 except for the commands
+\texttt{bclf}, \texttt{bclt}, \texttt{mfc1} and \texttt{mtc1} which are included.
+
+%3. How is the output formatted
+The disassembler outputs to \emph{standard out} the following for each line of machine code:
+\begin{enumerate}
+\item the original instruction.
+\item the type of instruction.
+\item the values for relevant fields for that type of instruction in decimal.
+\item the values for relevant fields for that type of instruction in hexadecimal.
+\item and the mnemonic representation.
+\end{enumerate}
+in the format \texttt{1; 2; 3; 4; 5;} where the numbers corresponds to the information in the list above.
+The disassembler will output error messages that corresponds to whatever type of error is in the machine code e.g. if you try to use a floating point instruction it will tell you it is not allowed or if you use an invalid op- or function-code it will also tell you that---and then continue with the next line of machine code.

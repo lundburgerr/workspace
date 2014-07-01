@@ -1,0 +1,47 @@
+För att testa programmet har en känd mappstruktur skapats med följande skript.
+\begin{verbatim}
+#!/bin/sh
+mkdir newtest
+ln -s newtest linktest
+cd newtest
+mkdir a
+ln -s a b
+cd a
+mkdir b c d
+ln -s b a
+cd b
+mkdir a b c
+chmod 000 c
+touch d
+cd a
+touch a
+cd ..
+touch b/a b/c
+\end{verbatim}
+
+Resultaten ska bli,  och blir följande:
+\begin{verbatim}
+%./mfind_p -p2 newtest b
+newtest/b
+newtest/a/b
+newtest/a/b/b
+No permission to open newtest/a/b/c
+140329278105344: 4
+140329288730368: 4
+
+%./mfind_p -p2 -t l newtest b
+newtest/b
+No permission to open newtest/a/b/c
+139734134916864: 3
+139734124291840: 5
+
+%./mfind_p -p2 -t d newtest linktest b
+newtest/a/b
+linktest/a/b
+linktest/a/b/b
+No permission to open linktest/a/b/c
+newtest/a/b/b
+No permission to open newtest/a/b/c
+140144795088640: 9
+140144805713664: 7
+\end{verbatim}

@@ -1,0 +1,32 @@
+/*
+ * main.h
+ *
+ *  Created on: Nov 18, 2013
+ *      Author: lundburgerr
+ */
+
+#ifndef MAIN_H_
+#define MAIN_H_
+
+#define INSTRUCTION_LENGTH 32
+
+enum format{R, I, J, INVALIDOP};
+
+struct funccode_t{
+	int funcnum;
+	char name[];
+};
+struct opcode_t{
+	struct funccode_t func[];
+	enum format type;
+};
+
+char registers[32][] = {"t0", "t1" ..};
+int opmap[] = {0, 1, ..};
+struct opcode_t operations[] =
+{
+
+};
+
+
+#endif /* MAIN_H_ */

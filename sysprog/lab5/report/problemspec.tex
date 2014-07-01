@@ -1,0 +1,18 @@
+
+%Sökprogram som använder trådar, snabbare än program som inte använder trådar
+Jag har implementerat en trådad sökalgoritm som ska kunna söker efter filer på hårddisken rekursivt ner i
+mappstrukturer. Målet är att programmet ska vara snabbare för datorer med flera kärnor än vad ett otrådad
+program som utför samma uppgift är. Detta kräver att trådarna belastas ungefär lika.
+
+%mfind_p [-t type] [-p nrthr] start1 [start2 ...] name
+Programmet körs med kommandot \texttt{mfind\_p [-t type] [-p nrthr] start1 [start2 ...] name}.
+\texttt{mfind\_p} är programmet; \texttt{startx} är mappar som man ska börja söka rekursivt i;
+\texttt{name} är namnet på den fil man ska söka efter; \texttt{type} specifierar vilken typ av fil du 
+vill hitta, man kan välja mellan d, f och l som innebär mapp, vanlig fil eller mjuk länk respektive; \texttt{nrthr} anger hur många trådar man vill använda för att köra programmet.
+
+%Pool of tasks
+För att genomföra denna sökning ska varje tråd ges en mapp---från en \emph{taskpool} som enabrt den får söka i---tråden ska sedan fylla på denna taskpool med mappar som den hittar i denna mapp; sedan ska den också leta efter det \emph{namn} som användaren vill söka efter och sedan skriva ut den. Detta sker i en loop tills alla undermappar har sökts igenom.
+
+%Synkronisering. Deadlock, pool of tasks, inga task, avslut.
+För att undvika \emph{deadlock} och \emph{odefinierade beteenden} när trådarna utnyttjar gemensamt minne så måste trådarna synkroniseras. Trådarna måste även kunna hantera en tillfälligt tom taskpool och veta när dom kan avsluta.
+

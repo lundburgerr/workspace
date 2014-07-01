@@ -1,0 +1,197 @@
+16:31:49 **** Incremental Build of configuration Debug for project obl_lab1 ****
+make dismips 
+make: `dismips' is up to date.
+16:31:50 **** Incremental Build of configuration Debug for project obl_lab1 ****
+make dismips 
+make: `dismips' is up to date.
+16:34:44 **** Incremental Build of configuration Debug for project obl_lab1 ****
+make dismips 
+make: `dismips' is up to date.
+16:35:36 **** Incremental Build of configuration Debug for project obl_lab1 ****
+make dismips 
+gcc -g -Wall -o dismips main.c 
+16:41:04 **** Incremental Build of configuration Debug for project obl_lab1 ****
+make dismips 
+gcc -g -Wall -o dismips main.c 
+17:05:19 **** Incremental Build of configuration Debug for project obl_lab1 ****
+make dismips 
+gcc -g -Wall -o dismips main.c 
+main.c: In function ‘getfunc’:
+main.c:209:10: error: incompatible types when assigning to type ‘struct funccode_t *’ from type ‘struct funccode_t’
+main.c:211:10: error: incompatible types when assigning to type ‘struct funccode_t *’ from type ‘struct funccode_t’
+main.c:213:10: error: incompatible types when assigning to type ‘struct funccode_t *’ from type ‘struct funccode_t’
+main.c:215:10: error: incompatible types when assigning to type ‘struct funccode_t *’ from type ‘struct funccode_t’
+main.c:204:24: warning: unused variable ‘cc’ [-Wunused-variable]
+make: *** [dismips] Error 1
+17:05:48 **** Incremental Build of configuration Debug for project obl_lab1 ****
+make dismips 
+gcc -g -Wall -o dismips main.c 
+main.c: In function ‘getfunc’:
+main.c:204:24: warning: unused variable ‘cc’ [-Wunused-variable]
+17:07:40 **** Incremental Build of configuration Debug for project obl_lab1 ****
+make dismips 
+make: `dismips' is up to date.
+17:12:14 **** Incremental Build of configuration Debug for project obl_lab1 ****
+make dismips 
+gcc -g -Wall -o dismips main.c 
+main.c: In function ‘getfunc’:
+main.c:204:24: warning: unused variable ‘cc’ [-Wunused-variable]
+17:26:25 **** Incremental Build of configuration Debug for project obl_lab1 ****
+make dismips 
+make: `dismips' is up to date.
+17:35:49 **** Incremental Build of configuration Debug for project obl_lab1 ****
+make dismips 
+make: `dismips' is up to date.
+17:47:36 **** Incremental Build of configuration Debug for project obl_lab1 ****
+make dismips 
+gcc -g -Wall -o dismips main.c 
+main.c: In function ‘printOperation’:
+main.c:149:6: error: expected ‘;’ before ‘strrep’
+main.c:143:18: warning: variable ‘rd’ set but not used [-Wunused-but-set-variable]
+main.c: In function ‘getfunc’:
+main.c:210:24: warning: unused variable ‘cc’ [-Wunused-variable]
+make: *** [dismips] Error 1
+17:47:57 **** Incremental Build of configuration Debug for project obl_lab1 ****
+make dismips 
+gcc -g -Wall -o dismips main.c 
+main.c: In function ‘printOperation’:
+main.c:143:18: warning: variable ‘rd’ set but not used [-Wunused-but-set-variable]
+main.c: In function ‘getfunc’:
+main.c:210:24: warning: unused variable ‘cc’ [-Wunused-variable]
+17:49:32 **** Incremental Build of configuration Debug for project obl_lab1 ****
+make dismips 
+gcc -g -Wall -o dismips main.c 
+main.c: In function ‘printOperation’:
+main.c:143:18: warning: variable ‘rd’ set but not used [-Wunused-but-set-variable]
+main.c: In function ‘getfunc’:
+main.c:210:24: warning: unused variable ‘cc’ [-Wunused-variable]
+17:51:35 **** Incremental Build of configuration Debug for project obl_lab1 ****
+make dismips 
+gcc -g -Wall -o dismips main.c 
+main.c: In function ‘printOperation’:
+main.c:143:18: warning: variable ‘rd’ set but not used [-Wunused-but-set-variable]
+main.c: In function ‘getfunc’:
+main.c:212:24: warning: unused variable ‘cc’ [-Wunused-variable]
+17:52:23 **** Incremental Build of configuration Debug for project obl_lab1 ****
+make dismips 
+gcc -g -Wall -o dismips main.c 
+main.c: In function ‘printOperation’:
+main.c:143:18: warning: variable ‘rd’ set but not used [-Wunused-but-set-variable]
+main.c: In function ‘getfunc’:
+main.c:212:24: warning: unused variable ‘cc’ [-Wunused-variable]
+21:50:11 **** Incremental Build of configuration Debug for project obl_lab1 ****
+make dismips 
+gcc -g -Wall -o dismips main.c 
+main.c: In function ‘printOperation’:
+main.c:124:3: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘unsigned int’ [-Wformat]
+main.c:124:3: warning: format ‘%d’ expects argument of type ‘int’, but argument 3 has type ‘char *’ [-Wformat]
+main.c:124:3: warning: too many arguments for format [-Wformat-extra-args]
+main.c:162:18: warning: variable ‘rd’ set but not used [-Wunused-but-set-variable]
+main.c: In function ‘getfunc’:
+main.c:231:24: warning: unused variable ‘cc’ [-Wunused-variable]
+21:51:06 **** Incremental Build of configuration Debug for project obl_lab1 ****
+make dismips 
+gcc -g -Wall -o dismips main.c 
+main.c: In function ‘printOperation’:
+main.c:165:18: warning: variable ‘rd’ set but not used [-Wunused-but-set-variable]
+main.c: In function ‘getfunc’:
+main.c:234:24: warning: unused variable ‘cc’ [-Wunused-variable]
+21:52:08 **** Incremental Build of configuration Debug for project obl_lab1 ****
+make dismips 
+gcc -g -Wall -o dismips main.c 
+main.c: In function ‘printOperation’:
+main.c:167:18: warning: variable ‘rd’ set but not used [-Wunused-but-set-variable]
+main.c: In function ‘getfunc’:
+main.c:236:24: warning: unused variable ‘cc’ [-Wunused-variable]
+21:53:04 **** Incremental Build of configuration Debug for project obl_lab1 ****
+make dismips 
+gcc -g -Wall -o dismips main.c 
+main.c: In function ‘printOperation’:
+main.c:167:18: warning: variable ‘rd’ set but not used [-Wunused-but-set-variable]
+main.c: In function ‘getfunc’:
+main.c:236:24: warning: unused variable ‘cc’ [-Wunused-variable]
+21:53:21 **** Incremental Build of configuration Debug for project obl_lab1 ****
+make dismips 
+gcc -g -Wall -o dismips main.c 
+main.c: In function ‘printOperation’:
+main.c:167:18: warning: variable ‘rd’ set but not used [-Wunused-but-set-variable]
+main.c: In function ‘getfunc’:
+main.c:236:24: warning: unused variable ‘cc’ [-Wunused-variable]
+21:53:34 **** Incremental Build of configuration Debug for project obl_lab1 ****
+make dismips 
+gcc -g -Wall -o dismips main.c 
+main.c: In function ‘printOperation’:
+main.c:167:18: warning: variable ‘rd’ set but not used [-Wunused-but-set-variable]
+main.c: In function ‘getfunc’:
+main.c:236:24: warning: unused variable ‘cc’ [-Wunused-variable]
+21:54:38 **** Incremental Build of configuration Debug for project obl_lab1 ****
+make dismips 
+gcc -g -Wall -o dismips main.c 
+main.c: In function ‘printOperation’:
+main.c:167:18: warning: variable ‘rd’ set but not used [-Wunused-but-set-variable]
+main.c: In function ‘getfunc’:
+main.c:236:24: warning: unused variable ‘cc’ [-Wunused-variable]
+21:55:32 **** Incremental Build of configuration Debug for project obl_lab1 ****
+make dismips 
+make: `dismips' is up to date.
+18:28:57 **** Incremental Build of configuration Debug for project obl_lab1 ****
+make dismips 
+gcc -g -Wall -o dismips main.c 
+main.c: In function ‘main’:
+main.c:54:2: error: expected ‘;’ before ‘while’
+main.c:39:15: warning: unused variable ‘instruction’ [-Wunused-variable]
+main.c:38:7: warning: unused variable ‘line’ [-Wunused-variable]
+main.c: In function ‘printOperation’:
+main.c:169:18: warning: variable ‘rd’ set but not used [-Wunused-but-set-variable]
+main.c: In function ‘getfunc’:
+main.c:238:24: warning: unused variable ‘cc’ [-Wunused-variable]
+main.c: In function ‘main’:
+main.c:60:1: warning: control reaches end of non-void function [-Wreturn-type]
+make: *** [dismips] Error 1
+18:29:05 **** Incremental Build of configuration Debug for project obl_lab1 ****
+make dismips 
+gcc -g -Wall -o dismips main.c 
+main.c: In function ‘printOperation’:
+main.c:169:18: warning: variable ‘rd’ set but not used [-Wunused-but-set-variable]
+main.c: In function ‘getfunc’:
+main.c:238:24: warning: unused variable ‘cc’ [-Wunused-variable]
+18:54:48 **** Incremental Build of configuration Debug for project obl_lab1 ****
+make dismips 
+gcc -g -Wall -o dismips main.c 
+main.c: In function ‘printOperation’:
+main.c:176:18: warning: variable ‘rd’ set but not used [-Wunused-but-set-variable]
+main.c: In function ‘getfunc’:
+main.c:245:24: warning: unused variable ‘cc’ [-Wunused-variable]
+19:05:42 **** Incremental Build of configuration Debug for project obl_lab1 ****
+make dismips 
+gcc -g -Wall -o dismips main.c 
+main.c: In function ‘printOperation’:
+main.c:177:18: warning: variable ‘rd’ set but not used [-Wunused-but-set-variable]
+main.c: In function ‘getfunc’:
+main.c:246:24: warning: unused variable ‘cc’ [-Wunused-variable]
+19:07:00 **** Incremental Build of configuration Debug for project obl_lab1 ****
+make dismips 
+gcc -g -Wall -o dismips main.c 
+main.c: In function ‘printOperation’:
+main.c:177:18: warning: variable ‘rd’ set but not used [-Wunused-but-set-variable]
+main.c: In function ‘getfunc’:
+main.c:246:24: warning: unused variable ‘cc’ [-Wunused-variable]
+19:07:04 **** Incremental Build of configuration Debug for project obl_lab1 ****
+make dismips 
+make: `dismips' is up to date.
+19:07:18 **** Incremental Build of configuration Debug for project obl_lab1 ****
+make dismips 
+make: `dismips' is up to date.
+19:07:25 **** Incremental Build of configuration Debug for project obl_lab1 ****
+make dismips 
+make: `dismips' is up to date.
+19:08:26 **** Incremental Build of configuration Debug for project obl_lab1 ****
+make dismips 
+make: `dismips' is up to date.
+19:09:40 **** Incremental Build of configuration Debug for project obl_lab1 ****
+make dismips 
+gcc -g -Wall -o dismips main.c 
+main.c: In function ‘printOperation’:
+main.c:177:18: warning: variable ‘rd’ set but not used [-Wunused-but-set-variable]
+main.c: In function ‘getfunc’:
+main.c:246:24: warning: unused variable ‘cc’ [-Wunused-variable]

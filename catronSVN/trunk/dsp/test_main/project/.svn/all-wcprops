@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/catronSvn/!svn/ver/389/trunk/dsp/test_main/project
+END
+linker_dsp.cmd
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/catronSvn/!svn/ver/300/trunk/dsp/test_main/project/linker_dsp.cmd
+END
+OMAPdebug_xds510.ccxml
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/catronSvn/!svn/ver/283/trunk/dsp/test_main/project/OMAPdebug_xds510.ccxml
+END
+.ccsproject
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/catronSvn/!svn/ver/153/trunk/dsp/test_main/project/.ccsproject
+END
+LUF_OMAPL138_ARM.gel
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/catronSvn/!svn/ver/389/trunk/dsp/test_main/project/LUF_OMAPL138_ARM.gel
+END
+C6748.gel
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/catronSvn/!svn/ver/143/trunk/dsp/test_main/project/C6748.gel
+END
+LUF_OMAP138_ARM.ccxml
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/catronSvn/!svn/ver/389/trunk/dsp/test_main/project/LUF_OMAP138_ARM.ccxml
+END
+macros.ini
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/catronSvn/!svn/ver/15/trunk/dsp/test_main/project/macros.ini
+END
+.project
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/catronSvn/!svn/ver/325/trunk/dsp/test_main/project/.project
+END
+LUF_OMAPL138_DSP.gel
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/catronSvn/!svn/ver/389/trunk/dsp/test_main/project/LUF_OMAPL138_DSP.gel
+END
+targetConfigSimulation.ccxml
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/catronSvn/!svn/ver/144/trunk/dsp/test_main/project/targetConfigSimulation.ccxml
+END
+.cproject
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/catronSvn/!svn/ver/339/trunk/dsp/test_main/project/.cproject
+END
+OMAPdebug.ccxml
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/catronSvn/!svn/ver/277/trunk/dsp/test_main/project/OMAPdebug.ccxml
+END
+README.txt
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/catronSvn/!svn/ver/254/trunk/dsp/test_main/project/README.txt
+END

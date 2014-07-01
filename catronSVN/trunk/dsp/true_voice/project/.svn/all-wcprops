@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/catronSvn/!svn/ver/349/trunk/dsp/true_voice/project
+END
+createLECs.bat
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/catronSvn/!svn/ver/344/trunk/dsp/true_voice/project/createLECs.bat
+END
+macros.ini
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/catronSvn/!svn/ver/9/trunk/dsp/true_voice/project/macros.ini
+END
+copy_files_to_output.bat
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/catronSvn/!svn/ver/16/trunk/dsp/true_voice/project/copy_files_to_output.bat
+END
+.project
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/catronSvn/!svn/ver/349/trunk/dsp/true_voice/project/.project
+END
+ReplaceStrings.exe
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/catronSvn/!svn/ver/330/trunk/dsp/true_voice/project/ReplaceStrings.exe
+END
+.cproject
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/catronSvn/!svn/ver/339/trunk/dsp/true_voice/project/.cproject
+END
+svn_vers.bat
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/catronSvn/!svn/ver/11/trunk/dsp/true_voice/project/svn_vers.bat
+END
+.ccsproject
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/catronSvn/!svn/ver/128/trunk/dsp/true_voice/project/.ccsproject
+END

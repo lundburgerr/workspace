@@ -1,0 +1,10 @@
+K 10
+svn:ignore
+V 13
+voxNoise.asv
+
+K 13
+svn:mergeinfo
+V 60
+/branches/adaptive_gain_equalizer_samuel/brusred_Vox:119-122
+END

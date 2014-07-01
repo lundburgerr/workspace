@@ -1,0 +1,91 @@
+10
+
+dir
+391
+https://www.limesaudio.com/svn/catronSvn/tags/release_catron_130920/CCSv4-2-4_with_SOM-M1_BSL_WS/.metadata/.plugins
+https://www.limesaudio.com/svn/catronSvn
+
+
+
+2013-08-19T14:39:41.608486Z
+253
+robin
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+029381c5-b922-4cf1-bf46-9fed43053258
+
+org.eclipse.ltk.core.refactoring
+dir
+
+com.ti.ccstudio.managedbuild.ui
+dir
+
+org.eclipse.cdt.ui
+dir
+
+com.ti.dvt.ui
+dir
+
+org.eclipse.pde.runtime
+dir
+
+com.ti.dvt.ideadapterplugin
+dir
+
+org.eclipse.ui.workbench
+dir
+
+org.eclipse.cdt.core
+dir
+
+org.eclipse.core.resources
+dir
+
+org.eclipse.debug.ui
+dir
+
+com.ti.ccstudio.debug.registers.ui
+dir
+
+com.ti.dvt.datamodel
+dir
+
+org.eclipse.ltk.ui.refactoring
+dir
+
+com.ti.ccstudio.debug.core
+dir
+
+org.eclipse.core.runtime
+dir
+
+com.ti.ccstudio.builddefinitions.generator
+dir
+
+com.ti.dvt.graph.visualization
+dir
+
+org.eclipse.ui.cheatsheets
+dir
+
+org.eclipse.debug.core
+dir
+
+org.eclipse.cdt.make.core
+dir
+
+org.eclipse.ui.ide
+dir
+

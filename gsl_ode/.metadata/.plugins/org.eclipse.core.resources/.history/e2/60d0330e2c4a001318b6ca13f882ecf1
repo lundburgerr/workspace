@@ -1,0 +1,22 @@
+LDFLAGS = -L"/home/lundburgerr/Programs/gsl-1.9/lib" -lgsl -lgslcblas -lm 
+CFLAGS = -I"/home/lundburgerr/Programs/gsl-1.9/include/gsl" -g -std=c99 -DGSL_DISABLE_DEPRECATED
+CC = gcc
+
+
+ex: ex1 ex2
+
+ex1: ex1.c
+
+ex2: ex2.c
+
+exercise1: exercise1.c
+	$(CC) $(CFLAGS) exercise1.c -o exercise1 $(LDFLAGS)
+
+exercise2: exercise2.c
+
+exercise3: exercise3.c
+
+exercise4: exercise4.c
+
+clean:
+	rm -f *.o ex1 ex2 exercise1 exercise2 exercise3 exercise4

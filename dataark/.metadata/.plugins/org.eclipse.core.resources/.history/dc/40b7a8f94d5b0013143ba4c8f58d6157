@@ -1,0 +1,77 @@
+/*
+ * main.c
+ *
+ *  Created on: Nov 17, 2013
+ *      Author: lundburgerr
+ */
+
+
+#include <stdio.h>
+#include <stdlib.h>
+#include "main.h"
+
+
+unsigned int getop(unsigned int inst);
+
+//Max opcode 0x38 -> not bad
+//Array of structs that contain necessary info about opcode like format etc.
+//It also contains another array of structs with function information if it's R
+//If it's I or J it contains pointer to a struct (not array) this struct contains name etc.
+
+
+
+int main(int argc, char *argv[]){
+
+	FILE *file;
+	char line[33];
+
+	unsigned int instruction;
+
+
+
+	file = fopen("machinecode.txt", "r");
+	while (fgets(line, sizeof(line), file ) != NULL ){
+		instruction = strtol(line, NULL, 0);
+
+
+		printOperation(op);
+
+	}
+
+	return EXIT_SUCCESS;
+}
+
+unsigned int getop(unsigned int inst){
+	return inst>>26;
+}
+
+void printOperation(unsigned int instruction){
+	unsigned int opcode;
+	struct opcode_t op;
+	struct funccode_t func;
+
+	opcode = getop(instruction);
+	op = operations[opcode];
+	func = getfunc(op, instruction);
+	char *out;
+
+	switch(op.type){
+		case(R):
+			strrep(out, "%rs", getrs(func));
+			strrep(out, "%rd", getrd(func));
+			strrep(out, "%rt", getrt(func));
+			strrep(out, "%shamt", getshamt(func));
+			break;
+		case(R):
+			strrep(out, "%rs", getrs(func));
+			strrep(out, "%rt", getrt(func));
+			strrep(out, "%imm", getimm(func));
+			break;
+		case(R):
+			strrep(out, "%rs", getrs(func));
+			strrep(out, "%rt", getrt(func));
+			strrep(out, "%imm", getimm(func));
+			break;
+	}
+}
+

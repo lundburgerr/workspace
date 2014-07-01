@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/catronSvn/!svn/ver/329/tags/release_catron_130920/CCSv4-2-4_with_SOM-M1_BSL_WS/DSP%20BSL/Debug
+END
+evmomapl138_bsl.lib
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/catronSvn/!svn/ver/329/tags/release_catron_130920/CCSv4-2-4_with_SOM-M1_BSL_WS/DSP%20BSL/Debug/evmomapl138_bsl.lib
+END
+ccsObjs.opt
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/catronSvn/!svn/ver/329/tags/release_catron_130920/CCSv4-2-4_with_SOM-M1_BSL_WS/DSP%20BSL/Debug/ccsObjs.opt
+END
+sources.mk
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/catronSvn/!svn/ver/329/tags/release_catron_130920/CCSv4-2-4_with_SOM-M1_BSL_WS/DSP%20BSL/Debug/sources.mk
+END
+makefile
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/catronSvn/!svn/ver/329/tags/release_catron_130920/CCSv4-2-4_with_SOM-M1_BSL_WS/DSP%20BSL/Debug/makefile
+END
+objects.mk
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/catronSvn/!svn/ver/329/tags/release_catron_130920/CCSv4-2-4_with_SOM-M1_BSL_WS/DSP%20BSL/Debug/objects.mk
+END

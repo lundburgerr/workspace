@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/catronSvn/!svn/ver/103/trunk/LUFapplication/Source/Source/1450-Host%20Product/sim_modules/phy_stand_alone
+END
+stub.c
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/catronSvn/!svn/ver/103/trunk/LUFapplication/Source/Source/1450-Host%20Product/sim_modules/phy_stand_alone/stub.c
+END
+OS_start.c
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/catronSvn/!svn/ver/103/trunk/LUFapplication/Source/Source/1450-Host%20Product/sim_modules/phy_stand_alone/OS_start.c
+END
+phy_testbench.c
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/catronSvn/!svn/ver/103/trunk/LUFapplication/Source/Source/1450-Host%20Product/sim_modules/phy_stand_alone/phy_testbench.c
+END
+message_arm.cfg
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/catronSvn/!svn/ver/103/trunk/LUFapplication/Source/Source/1450-Host%20Product/sim_modules/phy_stand_alone/message_arm.cfg
+END
+message_common.cfg.xs
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/catronSvn/!svn/ver/103/trunk/LUFapplication/Source/Source/1450-Host%20Product/sim_modules/phy_stand_alone/message_common.cfg.xs
+END
+message_multicore.c
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/catronSvn/!svn/ver/103/trunk/LUFapplication/Source/Source/1450-Host%20Product/sim_modules/phy_stand_alone/message_multicore.c
+END
+phy_testseq.c
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/catronSvn/!svn/ver/103/trunk/LUFapplication/Source/Source/1450-Host%20Product/sim_modules/phy_stand_alone/phy_testseq.c
+END
+rtos_stub.h
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/catronSvn/!svn/ver/103/trunk/LUFapplication/Source/Source/1450-Host%20Product/sim_modules/phy_stand_alone/rtos_stub.h
+END

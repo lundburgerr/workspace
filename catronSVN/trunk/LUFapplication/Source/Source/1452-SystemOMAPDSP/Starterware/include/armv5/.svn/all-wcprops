@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/catronSvn/!svn/ver/103/trunk/LUFapplication/Source/Source/1452-SystemOMAPDSP/Starterware/include/armv5
+END
+cp15.h
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/catronSvn/!svn/ver/103/trunk/LUFapplication/Source/Source/1452-SystemOMAPDSP/Starterware/include/armv5/cp15.h
+END
+cpu.h
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/catronSvn/!svn/ver/103/trunk/LUFapplication/Source/Source/1452-SystemOMAPDSP/Starterware/include/armv5/cpu.h
+END

@@ -1,0 +1,311 @@
+/*
+ * main.h
+ *
+ *  Created on: Nov 18, 2013
+ *      Author: lundburgerr
+ */
+
+#ifndef MAIN_H_
+#define MAIN_H_
+
+#define INSTRUCTION_LENGTH 32
+#define EMPTY_FIELD -2
+#define REGISTER_FIELD -1
+#define NO_INSTRUCTION "not an operation!"
+
+enum format{R, I, J, INVALIDOP};
+
+//Add format of print out
+struct funccode_t{
+	int funcnum;
+	char *name;
+};
+
+//Add funcstart in opcode
+struct opcode_t{
+	enum format type;
+	int opnum;
+	struct funccode_t *func;
+	int funcstart;
+};
+
+char *registers[32] = {"$zero", "$at", "$v0", "$v1", "$a0", "$a1", "$a2", "$a0", \
+		"$t0", "$t1", "$t2", "$t3", "$t4", "$t5", "$t6", "$t7", \
+		"$s0", "$s0", "$s0", "$s0", "$s0", "$s0", "$s0", "$s0", \
+		"$t8", "$t9", "$k0", "$k1", "$gp", "$sp", "$fp", "$ra"
+};
+
+struct funccode_t funk2op0[] = {
+		{0x0, "sll %rd%, %rt, %shamt%"},
+		{0x1, "movf"},
+		{0x2, "srl %rd%, %rt%, %shamt%"},
+		{0x3, "sra %rd%, %rt%, %shamt%"},
+		{0x4, "sllv %rd%, %rt%, %rs%"},
+		{0x5, NO_INSTRUCTION},
+		{0x6, "srlv %rd%, %rt%, %rs%"},
+		{0x7, "srav %rd%, %rt%, %rs%"},
+		{0x8, "jr"},
+		{0x9, "jalr %rs%, %rd%"},
+		{0xa, "movz"},
+		{0xb, "movn"},
+		{0xc, NO_INSTRUCTION},
+		{0xd, NO_INSTRUCTION},
+		{0xe, NO_INSTRUCTION},
+		{0xf, NO_INSTRUCTION},
+		{0x10, "mfhi %rd%"},
+		{0x11, "mthi"},
+		{0x12, "mflo"},
+		{0x13, "mtlo"},
+		{0x14, NO_INSTRUCTION},
+		{0x15, NO_INSTRUCTION},
+		{0x16, NO_INSTRUCTION},
+		{0x17, NO_INSTRUCTION},
+		{0x18, "mult %rs%, %rt%"},
+		{0x19, "multu %rs%, %rt%"},
+		{0x1a, "div %rs%, %rt%"},
+		{0x1b, "divu %rs%, %rt%"},
+		{0x1c, NO_INSTRUCTION},
+		{0x1d, NO_INSTRUCTION},
+		{0x1e, NO_INSTRUCTION},
+		{0x1f, NO_INSTRUCTION},
+		{0x20, "add %rd%, %rs%, %rt%"},
+		{0x21, "addu %rd%, %rs%, %rt%"},
+		{0x22, "sub %rd%, %rs%, %rt%"},
+		{0x23, "subu %rd%, %rs%, %rt%"},
+		{0x24, "and %rd%, %rs%, %rt%"},
+		{0x25, "or %rd%, %rs%, %rt%"},
+		{0x26, "xor %rd%, %rs%, %rt%"},
+		{0x27, "nor %rd%, %rs%, %rt%"},
+		{0x2a, "slt %rd%, %rs%, %rt%"},
+		{0x2b, "sltu %rd%, %rs%, %rt%"},
+		{0x2c, NO_INSTRUCTION},
+		{0x2d, NO_INSTRUCTION},
+		{0x2e, NO_INSTRUCTION},
+		{0x2f, NO_INSTRUCTION},
+		{0x30, "tge %rs%, %rt%"},
+		{0x31, "tgeu %rs%, %rt%"},
+		{0x32, "tlt %rs%, %rt%"},
+		{0x33, "tltu %rs%, %rt%"},
+		{0x34, "teq %rs%, %rt%"},
+		{0x35, NO_INSTRUCTION},
+		{0x36, "tne %rs%, %rt%"}
+};
+struct funccode_t funk2op1[] = {
+		{0x0, "bltz"},
+		{0x1, NO_INSTRUCTION},
+		{0x2, NO_INSTRUCTION},
+		{0x3, NO_INSTRUCTION},
+		{0x4, NO_INSTRUCTION},
+		{0x5, NO_INSTRUCTION},
+		{0x6, NO_INSTRUCTION},
+		{0x7, NO_INSTRUCTION},
+		{0x8, "tgei"},
+		{0x9, "tgeiu"},
+		{0xa, "tlti"},
+		{0xb, "tltiu"},
+		{0xc, "teqi"},
+		{0xd, NO_INSTRUCTION},
+		{0xe, "tnei"}
+};
+struct funccode_t funk2op2[] = {
+		{0, "j"}
+};
+struct funccode_t funk2op3[] = {
+		{0, "jal"}
+};
+struct funccode_t funk2op4[] = {
+		{0, "beq"}
+};
+struct funccode_t funk2op5[] = {
+		{0, "bne"}
+};
+struct funccode_t funk2op6[] = {
+		{0, "blez"}
+};
+struct funccode_t funk2op7[] = {
+		{0, "bgtz"}
+};
+struct funccode_t funk2op8[] = {
+		{0, "addi"}
+};
+struct funccode_t funk2op9[] = {
+		{0, "addiu"}
+};
+struct funccode_t funk2opa[] = {
+		{0, "slti"}
+};
+struct funccode_t funk2opb[] = {
+		{0, "sltiu"}
+};
+struct funccode_t funk2opc[] = {
+		{0, "andi"}
+};
+struct funccode_t funk2opd[] = {
+		{0, "ori"}
+};
+struct funccode_t funk2ope[] = {
+		{0, "xori"}
+};
+struct funccode_t funk2opf[] = {
+		{0, "lui"}
+};
+//TODO: funccode is weird here
+struct funccode_t funk2op11[] = {
+		{0x0, "bclf"},
+		{0x1, "bclt"},
+		{0x0, "mfcl"},
+		{0x4, "mtcl"},
+};
+struct funccode_t funk2op1c[] = {
+		{0x0, "madd"},
+		{0x1, "maddu"},
+		{0x2, "mul"},
+		{0x3, NO_INSTRUCTION},
+		{0x4, "msub"},
+		{0x5, "msubu"},
+		{0x6, NO_INSTRUCTION},
+		{0x7, NO_INSTRUCTION},
+		{0x8, NO_INSTRUCTION},
+		{0x9, NO_INSTRUCTION},
+		{0xa, NO_INSTRUCTION},
+		{0xb, NO_INSTRUCTION},
+		{0xc, NO_INSTRUCTION},
+		{0xd, NO_INSTRUCTION},
+		{0xe, NO_INSTRUCTION},
+		{0xf, NO_INSTRUCTION},
+		{0x10, NO_INSTRUCTION},
+		{0x11, NO_INSTRUCTION},
+		{0x12, NO_INSTRUCTION},
+		{0x13, NO_INSTRUCTION},
+		{0x14, NO_INSTRUCTION},
+		{0x15, NO_INSTRUCTION},
+		{0x16, NO_INSTRUCTION},
+		{0x17, NO_INSTRUCTION},
+		{0x18, NO_INSTRUCTION},
+		{0x19, NO_INSTRUCTION},
+		{0x1a, NO_INSTRUCTION},
+		{0x1b, NO_INSTRUCTION},
+		{0x1c, NO_INSTRUCTION},
+		{0x1d, NO_INSTRUCTION},
+		{0x1e, NO_INSTRUCTION},
+		{0x1f, NO_INSTRUCTION},
+		{0x20, "clz"},
+		{0x21, "clo"},
+};
+struct funccode_t funk2op20[] = {
+		{0, "lb"}
+};
+struct funccode_t funk2op21[] = {
+		{0, "lh"}
+};
+struct funccode_t funk2op22[] = {
+		{0, "lwl"}
+};
+struct funccode_t funk2op23[] = {
+		{0, "lw"}
+};
+struct funccode_t funk2op24[] = {
+		{0, "lbu"}
+};
+struct funccode_t funk2op25[] = {
+		{0, "lhu"}
+};
+struct funccode_t funk2op26[] = {
+		{0, "lwr"}
+};
+struct funccode_t funk2op28[] = {
+		{0, "sb"}
+};
+struct funccode_t funk2op29[] = {
+		{0, "sh"}
+};
+struct funccode_t funk2op2a[] = {
+		{0, "swl"}
+};
+struct funccode_t funk2op2b[] = {
+		{0, "sw"}
+};
+struct funccode_t funk2op2e[] = {
+		{0, "swr"}
+};
+struct funccode_t funk2op31[] = {
+		{0, "lwc1"}
+};
+struct funccode_t funk2op38[] = {
+		{0, "sc"}
+};
+struct funccode_t funk2op39[] = {
+		{0, "swc1"}
+};
+struct funccode_t funk2op3d[] = {
+		{0, "sdc1"}
+};
+
+struct opcode_t operations[] =
+{
+		{R, 0x0, funk2op0, 5},
+		{I, 0x1, funk2op1, 5},
+		{J, 0x2, funk2op2, 5},
+		{J, 0x3, funk2op3, 5},
+		{I, 0x4, funk2op4, 5},
+		{I, 0x5, funk2op5, 5},
+		{I, 0x6, funk2op6, 5},
+		{I, 0x7, funk2op7, 5},
+		{I, 0x8, funk2op8, 5},
+		{I, 0x9, funk2op9, 5},
+		{I, 0xa, funk2opa, 5},
+		{I, 0xb, funk2opb, 5},
+		{I, 0xc, funk2opc, 5},
+		{I, 0xd, funk2opd, 5},
+		{I, 0xe, funk2ope, 5},
+		{I, 0xf, funk2opf, 5},
+		{INVALIDOP, 0x10},
+		{I, 0x11, funk2op11},
+		{INVALIDOP, 0x12},
+		{INVALIDOP, 0x13},
+		{INVALIDOP, 0x14},
+		{INVALIDOP, 0x15},
+		{INVALIDOP, 0x16},
+		{INVALIDOP, 0x17},
+		{INVALIDOP, 0x18},
+		{INVALIDOP, 0x19},
+		{INVALIDOP, 0x1a},
+		{INVALIDOP, 0x1b},
+		{R, 0x1c, funk2op1c, 5},
+		{INVALIDOP, 0x1d},
+		{INVALIDOP, 0x1e},
+		{INVALIDOP, 0x1f},
+		{I, 0x20, funk2op20},
+		{I, 0x21, funk2op21},
+		{I, 0x22, funk2op22},
+		{I, 0x23, funk2op23},
+		{I, 0x24, funk2op24},
+		{I, 0x25, funk2op25},
+		{I, 0x26, funk2op26},
+		{INVALIDOP, 0x27},
+		{I, 0x28, funk2op28},
+		{I, 0x29, funk2op29},
+		{I, 0x2a, funk2op2a},
+		{I, 0x2b, funk2op2b},
+		{INVALIDOP, 0x2c},
+		{INVALIDOP, 0x2d},
+		{I, 0x2e, funk2op2e},
+		{INVALIDOP, 0x2f},
+		{INVALIDOP, 0x30},
+		{I, 0x31, funk2op31},
+		{INVALIDOP, 0x32},
+		{INVALIDOP, 0x33},
+		{INVALIDOP, 0x34},
+		{INVALIDOP, 0x35},
+		{INVALIDOP, 0x36},
+		{INVALIDOP, 0x37},
+		{I, 0x38, funk2op38},
+		{I, 0x39, funk2op39},
+		{INVALIDOP, 0x3a},
+		{INVALIDOP, 0x3b},
+		{INVALIDOP, 0x3c},
+		{I, 0x3d, funk2op3d},
+
+};
+
+#endif /* MAIN_H_ */

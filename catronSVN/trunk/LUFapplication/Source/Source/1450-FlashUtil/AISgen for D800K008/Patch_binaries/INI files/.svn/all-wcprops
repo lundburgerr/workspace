@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/catronSvn/!svn/ver/103/trunk/LUFapplication/Source/Source/1450-FlashUtil/AISgen%20for%20D800K008/Patch_binaries/INI%20files
+END
+OMAP-L138_DSP_nand_ecc_patch_lcdk.ini
+K 25
+svn:wc:ra_dav:version-url
+V 166
+/svn/catronSvn/!svn/ver/103/trunk/LUFapplication/Source/Source/1450-FlashUtil/AISgen%20for%20D800K008/Patch_binaries/INI%20files/OMAP-L138_DSP_nand_ecc_patch_lcdk.ini
+END
+ReadMe.txt
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/catronSvn/!svn/ver/103/trunk/LUFapplication/Source/Source/1450-FlashUtil/AISgen%20for%20D800K008/Patch_binaries/INI%20files/ReadMe.txt
+END
+OMAP-L138_ARM_nand_ecc_patch_evm.ini
+K 25
+svn:wc:ra_dav:version-url
+V 165
+/svn/catronSvn/!svn/ver/103/trunk/LUFapplication/Source/Source/1450-FlashUtil/AISgen%20for%20D800K008/Patch_binaries/INI%20files/OMAP-L138_ARM_nand_ecc_patch_evm.ini
+END
+OMAP-L138_ARM_nand_ecc_patch_lcdk.ini
+K 25
+svn:wc:ra_dav:version-url
+V 166
+/svn/catronSvn/!svn/ver/103/trunk/LUFapplication/Source/Source/1450-FlashUtil/AISgen%20for%20D800K008/Patch_binaries/INI%20files/OMAP-L138_ARM_nand_ecc_patch_lcdk.ini
+END
+OMAP-L138_DSP_nand_ecc_patch_evm.ini
+K 25
+svn:wc:ra_dav:version-url
+V 165
+/svn/catronSvn/!svn/ver/103/trunk/LUFapplication/Source/Source/1450-FlashUtil/AISgen%20for%20D800K008/Patch_binaries/INI%20files/OMAP-L138_DSP_nand_ecc_patch_evm.ini
+END

@@ -1,0 +1,20 @@
+17:11:13 **** Incremental Build of configuration Debug for project threadTest ****
+make all 
+Building file: ../main.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.c"
+../main.c: In function ‘main’:
+../main.c:33:6: warning: passing argument 1 of ‘pthread_create’ from incompatible pointer type [enabled by default]
+/usr/include/pthread.h:225:12: note: expected ‘pthread_t * __restrict__’ but argument is of type ‘pthread_t **’
+../main.c:36:6: warning: passing argument 1 of ‘pthread_join’ makes integer from pointer without a cast [enabled by default]
+Finished building: ../main.c
+ 
+Building target: threadTest
+/usr/include/pthread.h:242:12: note: expected ‘pthread_t’ but argument is of type ‘pthread_t *’
+Invoking: Cross GCC Linker
+gcc  -o "threadTest"  ./main.o   -lpthread
+Finished building target: threadTest
+ 
+
+17:11:13 Build Finished (took 115ms)
+

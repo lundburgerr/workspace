@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/catronSvn/!svn/ver/119/branches/adaptive_gain_equalizer_samuel/toolkit/code/MOS/PESQ_source
+END
+dsp.h
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/catronSvn/!svn/ver/119/branches/adaptive_gain_equalizer_samuel/toolkit/code/MOS/PESQ_source/dsp.h
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/catronSvn/!svn/ver/119/branches/adaptive_gain_equalizer_samuel/toolkit/code/MOS/PESQ_source/Makefile
+END
+pesq.h
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/catronSvn/!svn/ver/119/branches/adaptive_gain_equalizer_samuel/toolkit/code/MOS/PESQ_source/pesq.h
+END
+pesqmain.c
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/catronSvn/!svn/ver/119/branches/adaptive_gain_equalizer_samuel/toolkit/code/MOS/PESQ_source/pesqmain.c
+END
+pesqdsp.c
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/catronSvn/!svn/ver/119/branches/adaptive_gain_equalizer_samuel/toolkit/code/MOS/PESQ_source/pesqdsp.c
+END
+pesqio.c
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/catronSvn/!svn/ver/119/branches/adaptive_gain_equalizer_samuel/toolkit/code/MOS/PESQ_source/pesqio.c
+END
+pesqpar.h
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/catronSvn/!svn/ver/119/branches/adaptive_gain_equalizer_samuel/toolkit/code/MOS/PESQ_source/pesqpar.h
+END
+dsp.c
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/catronSvn/!svn/ver/119/branches/adaptive_gain_equalizer_samuel/toolkit/code/MOS/PESQ_source/dsp.c
+END
+pesq.exe
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/catronSvn/!svn/ver/119/branches/adaptive_gain_equalizer_samuel/toolkit/code/MOS/PESQ_source/pesq.exe
+END
+pesqmod.c
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/catronSvn/!svn/ver/119/branches/adaptive_gain_equalizer_samuel/toolkit/code/MOS/PESQ_source/pesqmod.c
+END

@@ -1,0 +1,21 @@
+\select@language {swedish}
+\contentsline {section}{\numberline {1}Problemspecifikation}{1}
+\contentsline {section}{\numberline {2}\IeC {\r A}tkomst och anv\IeC {\"a}ndarhandledning}{1}
+\contentsline {section}{\numberline {3}Algoritmbeskrivning}{1}
+\contentsline {subsection}{\numberline {3.1}taskManager}{2}
+\contentsline {subsection}{\numberline {3.2}mfind\_p}{2}
+\contentsline {section}{\numberline {4}Systembeskrivning}{3}
+\contentsline {subsection}{\numberline {4.1}Datastrukturer}{3}
+\contentsline {subsubsection}{\numberline {4.1.1}node}{3}
+\contentsline {subsection}{\numberline {4.2}Viktiga variabler}{3}
+\contentsline {subsection}{\numberline {4.3}Funktioner}{3}
+\contentsline {subsubsection}{\numberline {4.3.1}int main(int argc, char *argv[])}{3}
+\contentsline {subsubsection}{\numberline {4.3.2}void * taskManager(void *pArg)}{3}
+\contentsline {subsubsection}{\numberline {4.3.3}void mfind\_p(char *path, pcre *find, int type)}{3}
+\contentsline {subsubsection}{\numberline {4.3.4}void read\_arguments(int argc, char *argv[], par\_t *par)}{3}
+\contentsline {subsubsection}{\numberline {4.3.5}char * popTask(void)}{3}
+\contentsline {subsubsection}{\numberline {4.3.6}void pushTask(char* v)}{3}
+\contentsline {subsection}{\numberline {4.4}Anropsdiagram}{3}
+\contentsline {section}{\numberline {5}Testk\IeC {\"o}rningar}{4}
+\contentsline {section}{\numberline {6}Begr\IeC {\"a}nsningar}{5}
+\contentsline {section}{\numberline {7}Problem och reflektioner}{5}

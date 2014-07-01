@@ -1,0 +1,62 @@
+/*
+ * main.c
+ *
+ *  Created on: Nov 17, 2013
+ *      Author: lundburgerr
+ */
+
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <main.h>
+
+
+int getInstruction(char *line);
+int getop(int inst);
+
+//Max opcode 0x38 -> not bad
+//Array of structs that contain necessary info about opcode like format etc.
+//It also contains another array of structs with function information if it's R
+//If it's I or J it contains pointer to a struct (not array) this struct contains name etc.
+
+
+
+int main(int argc, char *argv[]){
+
+	FILE *file;
+	char line[33];
+	int opcode;
+	int instruction;
+	enum format format;
+
+
+	file = fopen("machinecode.txt", "r");
+	while (fgets(line, sizeof(line), file ) != NULL ){
+		instruction = strtol(line, NULL, 0);
+		opcode = getop(instruction);
+//		format = getformat(op);
+		switch(format){
+			case R:
+				break;
+			case I:
+				break;
+			case J:
+				break;
+			case INVALIDOP:
+				break;
+		}
+
+	}
+
+	return EXIT_SUCCESS;
+}
+
+//TODO: The number can be of any base, not just 2, redo this!
+int getInstruction(char *line){
+	int instruction = strtol(line);
+	return instruction;
+}
+
+int getop(int inst){
+	return inst>>26;
+}

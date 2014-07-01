@@ -1,0 +1,15 @@
+13:59:31 **** Build of configuration Debug for project fullScreen ****
+make all 
+Building file: ../src/fullScreen.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/fullScreen.d" -MT"src/fullScreen.d" -o "src/fullScreen.o" "../src/fullScreen.cpp"
+Finished building: ../src/fullScreen.cpp
+ 
+Building target: fullScreen
+Invoking: Cross G++ Linker
+g++  -o "fullScreen"  ./src/fullScreen.o   
+Finished building target: fullScreen
+ 
+14:00:03 **** Incremental Build of configuration Debug for project fullScreen ****
+make all 
+make: Nothing to be done for `all'.

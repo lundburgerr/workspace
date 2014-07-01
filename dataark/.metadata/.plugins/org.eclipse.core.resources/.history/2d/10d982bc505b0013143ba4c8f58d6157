@@ -1,0 +1,110 @@
+/*
+ * main.c
+ *
+ *  Created on: Nov 17, 2013
+ *      Author: lundburgerr
+ */
+
+
+#include <stdio.h>
+#include <stdlib.h>
+#include "main.h"
+
+
+unsigned int getop(unsigned int inst);
+
+//Max opcode 0x38 -> not bad
+//Array of structs that contain necessary info about opcode like format etc.
+//It also contains another array of structs with function information if it's R
+//If it's I or J it contains pointer to a struct (not array) this struct contains name etc.
+
+
+
+int main(int argc, char *argv[]){
+
+	FILE *file;
+	char line[33];
+
+	unsigned int instruction;
+
+
+
+	file = fopen("machinecode.txt", "r");
+	while (fgets(line, sizeof(line), file ) != NULL ){
+		instruction = strtol(line, NULL, 0);
+
+
+		printOperation(op);
+
+	}
+
+	return EXIT_SUCCESS;
+}
+
+unsigned int getop(unsigned int inst){
+	return inst>>26;
+}
+
+void printOperation(unsigned int instruction){
+	unsigned int opcode;
+	struct opcode_t op;
+	struct funccode_t func;
+	char regName[6];
+
+	opcode = getop(instruction);
+	op = operations[opcode];
+	func = getfunc(op, instruction);
+	char *out;
+
+	switch(op.type){
+		case(R):
+			getrs(instruction, regName);
+			strrep(out, "%rs%", regName);
+
+			getrd(instruction, regName);
+			strrep(out, "%rd%", regName);
+
+			getrt(instruction, regName);
+			strrep(out, "%rt%", regName);
+
+			getshamt(instruction, regName);
+			strrep(out, "%shamt%", regName);
+			break;
+		case(I):
+			getrs(instruction, regName);
+			strrep(out, "%rs%", regName);
+
+			getrt(instruction, regName);
+			strrep(out, "%rt%", regName);
+
+			getimm(instruction, regName);
+			strrep(out, "%imm%", regName);
+			break;
+		case(J):
+			getaddress(instruction, regName);
+			strrep(out, "%address%", regName);
+			break;
+	}
+	printf("%s\n", out);
+}
+
+void getrs(instruction, regName){
+	unsigned int rs;
+	rs = instruction << 6;
+	rs >>= 27;
+	strcpy(regName, registers[rs]);
+}
+
+void getrt(instruction, regName){
+	unsigned int rt;
+	rt = instruction << 11;
+	rt >>= 27;
+	strcpy(regName, registers[rt]);
+}
+
+void getrd(instruction, regName){
+	unsigned int rd;
+	rd = instruction << 16;
+	rd >>= 27;
+	strcpy(regName, registers[rd]);
+}

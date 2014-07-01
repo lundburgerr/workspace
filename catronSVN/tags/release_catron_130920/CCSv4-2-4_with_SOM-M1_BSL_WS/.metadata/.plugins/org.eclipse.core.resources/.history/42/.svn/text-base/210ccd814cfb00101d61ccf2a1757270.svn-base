@@ -1,0 +1,7 @@
+################################################################################
+# Automatically-generated file. Do not edit!
+################################################################################
+
+LIBS := "$(GEN_CMDS_QUOTED)" -l"" -l"C:\Projects\CCSv4-2-4_with_SOM-M1_BSL_WS\ARM BSL\am1808_rts.lib" -l"libc.a"
+
+USER_OBJS :=

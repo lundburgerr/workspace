@@ -1,0 +1,28 @@
+/*
+ * main.c
+ *
+ *  Created on: Oct 25, 2013
+ *      Author: lundburgerr
+ */
+
+#include <stdlib.h>
+#include <stdio.h>
+#include <pthread.h>
+
+#include <sys/time.h>
+
+
+void printMe(const char* msg);
+int main(int argc, char *argv[]){
+	pthread_t thread1;
+
+	pthread_create(&thread1, NULL, &printMe, "HEJSAN");
+	pthread_join(thread1,NULL);
+	printf("Done\n");
+
+	return EXIT_SUCCESS;
+}
+
+void printMe(const char* msg){
+	printf("%s\n", msg);
+}

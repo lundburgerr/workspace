@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/catronSvn/!svn/ver/302/trunk/dsp/true_voice/matlab
+END
+getdumpdata.m
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/catronSvn/!svn/ver/245/trunk/dsp/true_voice/matlab/getdumpdata.m
+END
+VDSP_dumpPlot.m
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/catronSvn/!svn/ver/270/trunk/dsp/true_voice/matlab/VDSP_dumpPlot.m
+END
+gen_inc_file.m
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/catronSvn/!svn/ver/255/trunk/dsp/true_voice/matlab/gen_inc_file.m
+END
+arrange_figures.m
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/catronSvn/!svn/ver/159/trunk/dsp/true_voice/matlab/arrange_figures.m
+END
+figure_position.m
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/catronSvn/!svn/ver/159/trunk/dsp/true_voice/matlab/figure_position.m
+END
+writeToH.m
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/catronSvn/!svn/ver/302/trunk/dsp/true_voice/matlab/writeToH.m
+END
+write_to_inc.m
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/catronSvn/!svn/ver/255/trunk/dsp/true_voice/matlab/write_to_inc.m
+END

@@ -1,0 +1,18 @@
+#!/bin/sh
+mkdir newtest
+ln -s newtest linktest
+cd newtest
+mkdir a
+ln -s a b
+cd a
+mkdir b c d
+ln -s b a
+cd b
+mkdir a b c
+chmod 000 c
+touch d
+cd a
+touch a
+cd ..
+touch b/a b/c
+

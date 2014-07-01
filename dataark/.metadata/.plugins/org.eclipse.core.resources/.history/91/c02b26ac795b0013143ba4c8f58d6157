@@ -1,0 +1,166 @@
+/*
+ * main.c
+ *
+ *  Created on: Nov 17, 2013
+ *      Author: lundburgerr
+ */
+
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include "main.h"
+
+
+
+//Max opcode 0x38 -> not bad
+//Array of structs that contain necessary info about opcode like format etc.
+//It also contains another array of structs with function information if it's R
+//If it's I or J it contains pointer to a struct (not array) this struct contains name etc.
+
+
+unsigned int getop(unsigned int inst);
+unsigned int getrs(unsigned int instruction, char *regName);
+unsigned int getrt(unsigned int instruction, char *regName);
+unsigned int getrd(unsigned int instruction, char *regName);
+unsigned int getimm(unsigned int instruction, char *regName);
+unsigned int getshamt(unsigned int instruction, char *regName);
+unsigned int getaddress(unsigned int instruction, char *regName);
+void strrep(char *out, const char *old, const char *new);
+void printOperation(unsigned int instruction);
+struct funccode_t * getfunc(struct opcode_t *op, unsigned int instruction);
+
+int main(int argc, char *argv[]){
+	FILE *file;
+	char line[33];
+	unsigned int instruction;
+
+	file = fopen("machinecode.txt", "r");
+	while (fgets(line, sizeof(line), file ) != NULL ){
+		instruction = strtol(line, NULL, 0);
+		printOperation(instruction);
+	}
+	return EXIT_SUCCESS;
+}
+
+unsigned int getop(unsigned int inst){
+	return inst>>26;
+}
+
+void printOperation(unsigned int instruction){
+	unsigned int opcode;
+	struct opcode_t *op;
+	struct funccode_t *func;
+	char regName[6];
+	unsigned int rs;
+	unsigned int rd;
+	unsigned int rt;
+	unsigned int imm;
+	unsigned int shamt;
+	unsigned int address;
+
+	opcode = getop(instruction);
+	op = &operations[opcode];
+	func = getfunc(op, instruction);
+	char *out = func->name;
+
+	switch(op->type){
+		case(R):
+			rs = getrs(instruction, regName);
+			strrep(out, "%rs%", regName);
+
+			rd = getrd(instruction, regName);
+			strrep(out, "%rd%", regName);
+
+			rt = getrt(instruction, regName);
+			strrep(out, "%rt%", regName);
+
+			shamt = getshamt(instruction, regName);
+			strrep(out, "%shamt%", regName);
+
+			printf("%d; R; ", instruction);
+			printf("%d %d %d %d %d %d; ", op->opnum, rs, rd, rt, shamt, func->funcnum);
+			printf("%x %x %x %x %x %x; ", op->opnum, rs, rd, rt, shamt, func->funcnum);
+			break;
+		case(I):
+			rs = getrs(instruction, regName);
+			strrep(out, "%rs%", regName);
+
+			rt = getrt(instruction, regName);
+			strrep(out, "%rt%", regName);
+
+			imm = getimm(instruction, regName);
+			strrep(out, "%imm%", regName);
+
+			printf("%d; I; ", instruction);
+			printf("%d %d %d %d %d; ", op->opnum, rs, rt, imm, func->funcnum);
+			printf("%x %x %x %x %x; ", op->opnum, rs, rt, imm, func->funcnum);
+			break;
+		case(J):
+			address = getaddress(instruction, regName);
+			strrep(out, "%address%", regName);
+
+			printf("%d; J; ", instruction);
+			printf("%d %d %d; ", op->opnum, address, func->funcnum);
+			printf("%x %x %x; ", op->opnum, address, func->funcnum);
+			break;
+		default:
+			break;
+	}
+	printf("%s\n", out);
+}
+
+void strrep(char *out, const char *old, const char *new){
+}
+
+struct funccode_t * getfunc(struct opcode_t *op, unsigned int instruction){
+	struct funccode_t *func;
+	unsigned int funccode;
+
+	funccode = instruction << (32-op->funcstart);
+	funccode >>= 26;
+	func = &op->func[funccode];
+	return func;
+}
+
+unsigned int getrs(unsigned int instruction, char *regName){
+	unsigned int rs;
+	rs = instruction << 6;
+	rs >>= 27;
+	strcpy(regName, registers[rs]);
+}
+
+unsigned int getrt(unsigned int instruction, char *regName){
+	unsigned int rt;
+	rt = instruction << 11;
+	rt >>= 27;
+	strcpy(regName, registers[rt]);
+}
+
+unsigned int getrd(unsigned int instruction, char *regName){
+	unsigned int rd;
+	rd = instruction << 16;
+	rd >>= 27;
+	strcpy(regName, registers[rd]);
+}
+
+unsigned int getshamt(unsigned int instruction, char *regName){
+	unsigned int shamt;
+	shamt = instruction << 21;
+	shamt >>= 27;
+	strcpy(regName, registers[shamt]);
+}
+
+unsigned int getimm(unsigned int instruction, char *regName){
+	unsigned int imm;
+	imm = instruction << 16;
+	imm >>= 16;
+	strcpy(regName, registers[imm]);
+}
+
+unsigned int getaddress(unsigned int instruction, char *regName){
+	unsigned int address;
+	address = instruction << 6;
+	address >>= 6;
+	strcpy(regName, registers[address]);
+}

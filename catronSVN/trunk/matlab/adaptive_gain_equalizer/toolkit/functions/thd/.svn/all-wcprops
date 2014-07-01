@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/catronSvn/!svn/ver/2/trunk/matlab/adaptive_gain_equalizer/toolkit/functions/thd
+END
+find_tone_position.m
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/catronSvn/!svn/ver/2/trunk/matlab/adaptive_gain_equalizer/toolkit/functions/thd/find_tone_position.m
+END
+thd_calc.m
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/catronSvn/!svn/ver/2/trunk/matlab/adaptive_gain_equalizer/toolkit/functions/thd/thd_calc.m
+END

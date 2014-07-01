@@ -1,0 +1,10 @@
+19:09:40 **** Incremental Build of configuration Debug for project obl_lab1 ****
+make dismips 
+gcc -g -Wall -o dismips main.c 
+main.c: In function ‘printOperation’:
+main.c:177:18: warning: variable ‘rd’ set but not used [-Wunused-but-set-variable]
+main.c: In function ‘getfunc’:
+main.c:246:24: warning: unused variable ‘cc’ [-Wunused-variable]
+
+19:09:40 Build Finished (took 114ms)
+

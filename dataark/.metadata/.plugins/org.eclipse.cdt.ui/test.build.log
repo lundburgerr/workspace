@@ -1,0 +1,17 @@
+12:37:31 **** Incremental Build of configuration Debug for project test ****
+make all 
+Building file: ../main.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.c"
+../main.c: In function ‘main’:
+../main.c:14:6: warning: variable ‘numnum’ set but not used [-Wunused-but-set-variable]
+Finished building: ../main.c
+ 
+Building target: test
+Invoking: Cross GCC Linker
+gcc  -o "test"  ./main.o   
+Finished building target: test
+ 
+
+12:37:32 Build Finished (took 234ms)
+

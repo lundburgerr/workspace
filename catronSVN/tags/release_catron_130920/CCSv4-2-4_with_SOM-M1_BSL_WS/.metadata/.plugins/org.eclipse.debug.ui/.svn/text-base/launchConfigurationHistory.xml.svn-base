@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launchHistory>
+<launch memento="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#13;&#10;&lt;launchConfiguration local=&quot;true&quot; path=&quot;Texas%20Instruments%20XDS100v2%20USB%20Emulator_0%2fETB11_0.launch&quot;/&gt;&#13;&#10;" mode="debug"/>
+<launch memento="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#13;&#10;&lt;launchConfiguration local=&quot;false&quot; path=&quot;/ARM eXp Audio Test/.launches/ARM%20eXp%20Audio%20Test.launch&quot;/&gt;&#13;&#10;" mode="debug"/>
+<launch memento="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#13;&#10;&lt;launchConfiguration local=&quot;false&quot; path=&quot;/ARM eXp SATA Test/.launches/ARM%20eXp%20SATA%20Test.launch&quot;/&gt;&#13;&#10;" mode="debug"/>
+<launch memento="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#13;&#10;&lt;launchConfiguration local=&quot;false&quot; path=&quot;/DSP eXp SATA Test/.launches/DSP%20eXp%20SATA%20Test.launch&quot;/&gt;&#13;&#10;" mode="debug"/>
+<launch memento="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#13;&#10;&lt;launchConfiguration local=&quot;false&quot; path=&quot;/ARM EVM NOR Test/.launches/ARM%20EVM%20NOR%20Test.launch&quot;/&gt;&#13;&#10;" mode="debug"/>
+<launch memento="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#13;&#10;&lt;launchConfiguration local=&quot;false&quot; path=&quot;/ARM EVM Character LCD Test/.launches/ARM%20EVM%20Character%20LCD%20Test.launch&quot;/&gt;&#13;&#10;" mode="debug"/>
+<launch memento="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#13;&#10;&lt;launchConfiguration local=&quot;false&quot; path=&quot;/ARM EVM NAND Test/.launches/ARM%20EVM%20NAND%20Test.launch&quot;/&gt;&#13;&#10;" mode="debug"/>
+<launch memento="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#13;&#10;&lt;launchConfiguration local=&quot;false&quot; path=&quot;/ARM EVM UPP Test/.launches/ARM%20EVM%20UPP%20Test.launch&quot;/&gt;&#13;&#10;" mode="debug"/>
+<launch memento="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#13;&#10;&lt;launchConfiguration local=&quot;false&quot; path=&quot;/ARM eXp USB Test/.launches/ARM%20eXp%20USB%20Test.launch&quot;/&gt;&#13;&#10;" mode="debug"/>
+<launch memento="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#13;&#10;&lt;launchConfiguration local=&quot;false&quot; path=&quot;/ARM eXp UART Test/.launches/ARM%20eXp%20UART%20Test.launch&quot;/&gt;&#13;&#10;" mode="debug"/>
+<lastLaunch memento="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#13;&#10;&lt;launchConfiguration local=&quot;true&quot; path=&quot;Texas%20Instruments%20XDS100v2%20USB%20Emulator_0%2fETB11_0.launch&quot;/&gt;&#13;&#10;" mode="debug"/>
+</launchHistory>

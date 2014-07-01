@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/catronSvn/!svn/ver/2/trunk/matlab/adaptive_gain_equalizer/filterbank1
+END
+create_prototype_filter_1.m
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/catronSvn/!svn/ver/2/trunk/matlab/adaptive_gain_equalizer/filterbank1/create_prototype_filter_1.m
+END
+MeasureAliasDist.m
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/catronSvn/!svn/ver/2/trunk/matlab/adaptive_gain_equalizer/filterbank1/MeasureAliasDist.m
+END
+filter64_256.mat
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/catronSvn/!svn/ver/2/trunk/matlab/adaptive_gain_equalizer/filterbank1/filter64_256.mat
+END
+FreqGridMat.m
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/catronSvn/!svn/ver/2/trunk/matlab/adaptive_gain_equalizer/filterbank1/FreqGridMat.m
+END
+PolyPhaseMat.m
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/catronSvn/!svn/ver/2/trunk/matlab/adaptive_gain_equalizer/filterbank1/PolyPhaseMat.m
+END
+create_prototype_filter_1.asv
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/catronSvn/!svn/ver/2/trunk/matlab/adaptive_gain_equalizer/filterbank1/create_prototype_filter_1.asv
+END
+IterLSDesign.m
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/catronSvn/!svn/ver/2/trunk/matlab/adaptive_gain_equalizer/filterbank1/IterLSDesign.m
+END
+filter128_512.mat
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/catronSvn/!svn/ver/2/trunk/matlab/adaptive_gain_equalizer/filterbank1/filter128_512.mat
+END

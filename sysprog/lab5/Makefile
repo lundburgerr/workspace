@@ -1,0 +1,10 @@
+
+CC=gcc
+CFLAGS=-g -Wall
+LDFLAGS=-lpcre -lpthread
+
+mfind_p: mfind_p.c
+	$(CC) $(CFLAGS) -o mfind_p mfind_p.c $(LDFLAGS)
+     
+clean:
+	rm -f *.o mfind_p

@@ -1,0 +1,167 @@
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/catronSvn/!svn/ver/329/tags/release_catron_130920/true_voice/include
+END
+expexpint.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/catronSvn/!svn/ver/329/tags/release_catron_130920/true_voice/include/expexpint.h
+END
+version.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/catronSvn/!svn/ver/329/tags/release_catron_130920/true_voice/include/version.h
+END
+leftback_coefs_right.h
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/catronSvn/!svn/ver/329/tags/release_catron_130920/true_voice/include/leftback_coefs_right.h
+END
+rightback_coefs_left.h
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/catronSvn/!svn/ver/329/tags/release_catron_130920/true_voice/include/rightback_coefs_left.h
+END
+empty_file_template.h
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/catronSvn/!svn/ver/329/tags/release_catron_130920/true_voice/include/empty_file_template.h
+END
+leftfront_coefs_left.h
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/catronSvn/!svn/ver/329/tags/release_catron_130920/true_voice/include/leftfront_coefs_left.h
+END
+dumpdata.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/catronSvn/!svn/ver/329/tags/release_catron_130920/true_voice/include/dumpdata.h
+END
+malespeech8000.inc
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/catronSvn/!svn/ver/329/tags/release_catron_130920/true_voice/include/malespeech8000.inc
+END
+true_voice_internal.h
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/catronSvn/!svn/ver/329/tags/release_catron_130920/true_voice/include/true_voice_internal.h
+END
+whiteNoise.inc
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/catronSvn/!svn/ver/329/tags/release_catron_130920/true_voice/include/whiteNoise.inc
+END
+prot_filt.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/catronSvn/!svn/ver/329/tags/release_catron_130920/true_voice/include/prot_filt.h
+END
+rightfront_coefs_right.h
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/catronSvn/!svn/ver/329/tags/release_catron_130920/true_voice/include/rightfront_coefs_right.h
+END
+lec.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/catronSvn/!svn/ver/329/tags/release_catron_130920/true_voice/include/lec.h
+END
+timers.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/catronSvn/!svn/ver/329/tags/release_catron_130920/true_voice/include/timers.h
+END
+leftback_coefs_left.h
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/catronSvn/!svn/ver/329/tags/release_catron_130920/true_voice/include/leftback_coefs_left.h
+END
+front_coefs_right.h
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/catronSvn/!svn/ver/329/tags/release_catron_130920/true_voice/include/front_coefs_right.h
+END
+directive_audio_filter.h
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/catronSvn/!svn/ver/329/tags/release_catron_130920/true_voice/include/directive_audio_filter.h
+END
+true_voice.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/catronSvn/!svn/ver/329/tags/release_catron_130920/true_voice/include/true_voice.h
+END
+fract_math.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/catronSvn/!svn/ver/329/tags/release_catron_130920/true_voice/include/fract_math.h
+END
+rightback_coefs_right.h
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/catronSvn/!svn/ver/329/tags/release_catron_130920/true_voice/include/rightback_coefs_right.h
+END
+femalespeech8000.inc
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/catronSvn/!svn/ver/329/tags/release_catron_130920/true_voice/include/femalespeech8000.inc
+END
+plot.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/catronSvn/!svn/ver/329/tags/release_catron_130920/true_voice/include/plot.h
+END
+subband.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/catronSvn/!svn/ver/329/tags/release_catron_130920/true_voice/include/subband.h
+END
+leftfront_coefs_right.h
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/catronSvn/!svn/ver/329/tags/release_catron_130920/true_voice/include/leftfront_coefs_right.h
+END
+rightfront_coefs_left.h
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/catronSvn/!svn/ver/329/tags/release_catron_130920/true_voice/include/rightfront_coefs_left.h
+END
+front_coefs_left.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/catronSvn/!svn/ver/329/tags/release_catron_130920/true_voice/include/front_coefs_left.h
+END
+sinewave.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/catronSvn/!svn/ver/329/tags/release_catron_130920/true_voice/include/sinewave.h
+END

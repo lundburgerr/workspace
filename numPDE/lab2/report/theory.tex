@@ -1,0 +1,70 @@
+In this lab I used five different methods to solve the one dimensional wave equation
+\begin{equation}\label{eq:wave}
+	\frac{\partial^2 u}{\partial t^2} = c^2 \frac{\partial^2 u}{\partial x^2}, \qquad 0\le x \le L
+\end{equation}
+where $c$ is the propagation speed of the wave, $u=u(x,t)$ is the displacement from equilibrium.
+The initial and boundary conditions to be solved for are
+\begin{equation}\label{eq:initial}
+\begin{aligned}%{rcl}
+	u(0,t) & = u(L,t) = 0 \\
+	u(x,0) & = f(x) \\
+	\dot{u}(x,0) & = 0
+\end{aligned}
+\end{equation}
+where $f(x)$ is a known function.
+
+From now on we discretize $u$ in both time, $t$, and space, $x$. So that
+\begin{equation}
+\begin{aligned}
+	u(j \Delta x, n \Delta t) = u_j^n \\
+	j = 0, 1, \dots, J=10/\Delta x \\
+	n = 0, 1, \dots, N=T/\Delta t \\
+\end{aligned}
+\end{equation}
+where $\Delta x$ and $\Delta t$ are constants chosen so that $N$ and $J$ are integers.
+
+\subsection{Simple Explicit Method}\label{sec:explicit}
+This method is also known as \emph{Forward in time, centred in space} (FTCS).
+Eq. \eqref{eq:wave} can be rewritten in discretized form as
+\begin{equation}
+\frac{u_{j}^{n+1} - 2 u_{j}^{n} + u_{j}^{n-1}}{\Delta t^2} = c^2 \frac{u_{j+1}^{n} - 2 u_{j}^{n} + u_{j-1}^{n}}{\Delta x^2}.
+\end{equation}
+Solving this for $u_{j}^{n+1}$ gives the updating scheme.
+%\begin{equation}
+%u_{j}^{n+1} = 2 u_{j}^{n} - u_{j}^{n-1} + \frac{c^2\Delta t^2}{\Delta x^2} \left( u_{j+1}^{n} - 2 u_{j}^{n} + u_{j-1}^{n} \right).
+%\end{equation}
+
+
+\subsection{Fully Implicit Method}\label{sec:implicit}
+For the implicit method we discretize eq. \eqref{eq:wave} having the spacial derivative calculated forward in time like
+\begin{equation}\label{eq:implicit}
+\frac{u_{j}^{n+1} - 2 u_{j}^{n} + u_{j}^{n-1}}{\Delta t^2} = c^2 \frac{u_{j+1}^{n+1} - 2 u_{j}^{n+1} + u_{j-1}^{n+1}}{\Delta x^2}.
+\end{equation}
+Solving this for $u_{j}^{n+1}$ gives the updating scheme.
+%\begin{equation}
+%u_{j}^{n+1} \left(1 + \frac{c^2\Delta t^2}{\Delta x^2}\right) - \frac{1}{2}\frac{c^2\Delta t^2}{\Delta x^2} \left[ u_{j+1}^{n+1}+u_{j-1}^{n+1} \right] = 2 u_{j}^{n} - u_{j}^{n-1}.
+%\end{equation}
+
+
+\subsection{The Crank-Nicholson Method}\label{sec:crank}
+The \emph{Crank-Nicholson} method is similar to the implicit method except that the average in time in both LHS and RHS of eq. \eqref{eq:implicit} should be the same. In order to accomplish this, take the average of the spacial derivative forwards and backwards in time. So that 
+\begin{equation}\label{eq:crank}
+\frac{u_{j}^{n+1} - 2 u_{j}^{n} + u_{j}^{n-1}}{\Delta t^2} = \frac{c^2}{2} 
+\frac{(u_{j+1}^{n+1}+u_{j+1}^{n-1}) - 2 (u_{j}^{n+1}+u_{j}^{n-1}) + (u_{j-1}^{n+1}+u_{j-1}^{n-1})}{\Delta x^2}.
+\end{equation}
+Solving this for $u_{j}^{n+1}$ gives the updating scheme.
+%\begin{equation}
+%u_{j}^{n+1} \left(1 + \frac{c^2\Delta t^2}{\Delta x^2}\right) - \frac{1}{2}\frac{c^2\Delta t^2}{\Delta x^2} \left[ u_{j+1}^{n+1}+u_{j-1}^{n+1} \right] = 2 u_{j}^{n} - u_{j}^{n-1}.
+%\end{equation}
+
+
+\subsection{FFT Time-step Method in Normal Space}\label{sec:ffttime}
+The updating scheme for this problem was derived in \cite{FDNotes} for time-stepping in 
+normal space.
+
+\subsection{Immediate FFT Method}\label{sec:fftimm}
+The numerical solution for this method was derived in \cite{FDNotes}.
+
+
+
+

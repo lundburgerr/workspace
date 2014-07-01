@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/catronSvn/!svn/ver/103/trunk/LUFapplication/Source/Source/1450-Radio%20Network/rn_phy/src
+END
+adsetup.c
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/catronSvn/!svn/ver/103/trunk/LUFapplication/Source/Source/1450-Radio%20Network/rn_phy/src/adsetup.c
+END
+spi_driver.c
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/catronSvn/!svn/ver/103/trunk/LUFapplication/Source/Source/1450-Radio%20Network/rn_phy/src/spi_driver.c
+END
+spi_driver.h
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/catronSvn/!svn/ver/103/trunk/LUFapplication/Source/Source/1450-Radio%20Network/rn_phy/src/spi_driver.h
+END
+slot_timing.h
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/catronSvn/!svn/ver/103/trunk/LUFapplication/Source/Source/1450-Radio%20Network/rn_phy/src/slot_timing.h
+END
+rni_slot_timing.c
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/catronSvn/!svn/ver/103/trunk/LUFapplication/Source/Source/1450-Radio%20Network/rn_phy/src/rni_slot_timing.c
+END

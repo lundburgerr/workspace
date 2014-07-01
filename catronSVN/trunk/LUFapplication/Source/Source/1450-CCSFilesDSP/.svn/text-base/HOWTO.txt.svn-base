@@ -1,0 +1,16 @@
+In CCS select menu File->Import
+
+In Import dialogue, select Code Composer Studio -> Existing CCS Eclipse Projects
+Next>
+
+Select search-directory and browse for the folder for this HOWTO.
+In the field of Discovered project:, 1452-PT-DSP is selected
+Un-Mark option "copy projects into workspace"
+Finish
+
+You should now have "1452-PT-DSP" in your project explorer.
+
+Mark "1452-PT-DSP" and select menu File -> properties
+Open Resource -> Linked Resources
+Make sure (Edit) SVN points out the source in SVN e.g "...<something>....\1450-LUF System\Trunk\Software\Source\Source"
+Refresh the project and build.

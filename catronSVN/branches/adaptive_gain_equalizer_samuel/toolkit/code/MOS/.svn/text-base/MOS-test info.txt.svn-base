@@ -1,0 +1,98 @@
+|FILENAME															| NR	|
+|---------------------------------------------------------------------------|
+|s_sn_mWest_mOur_car_sGain6_nGain7.75_SNR-0.0022354_beta9.wav		| 1/A	|
+|s_sn_mWest_mOur_vent_sGain6_nGain5.11_SNR-9.1065e-005_beta9.wav	| 2/B	|
+|s_sn_mWest_mOur_car_sGain6_nGain7.75_SNR-0.0022354_beta1.wav		| 3/C	|
+|s_sn_mWest_mOur_car_sGain6_nGain1.75_SNR5.9978_beta9.wav			| 4/D	|
+|s_sn_mWest_mOur_vent_sGain6_nGain-0.89_SNR5.9999_beta1.wav			| 5/E	|
+|s_sn_mWest_mOur_vent_sGain6_nGain-0.89_SNR5.9999_beta9.wav			| 6/F	|
+|s_sn_mWest_mOur_vent_sGain6_nGain5.11_SNR-9.1065e-005_beta1.wav	| 7/G	|
+|s_sn_mWest_mOur_car_sGain6_nGain1.75_SNR5.9978_beta1.wav			| 8/H	|
+|---------------------------------------------------------------------------|
+
+Files with labels 1-8 have got SBA first and Proposed last
+Files with labels A-H have got Proposed first and SBA last
+
+All files are created by cutting the above mentioned files and using segments between 11-16s in each section
+
+-----------
+Comparison Category Rating (CCR) according to ITU T-recommendation P.800-199608
+
+Sentences (http://cslu.cse.ogi.edu/corpora/csjph/protocol.html)
+(male) Four hours of steady work faced us.
+(male) The birch canoe slid on the smooth planks.
+ -> (female) These days a chicken leg is a rare dish.
+(female) Rice is often served in round bowls.
+
+
+
+
+DELTAGARE
+Markus
+Magnus
+Christian
+Fredric
+Jonas
+Martón
+Stefan
+Anna
+Niklas
+Annika
+
+
+UPPLÄGG
+Testpersonerna får lyssna på ett set av ljudfiler som innehåller två versioner av samma signal behandlade med olika ljudbehandlingsalgoritmer.
+I varje ljudfil ligger antingen SBA eller Proposed först, ordningen bestäms slumpvis för varje fil. I mitten av varje ljudfil finns en 950 Hz ton med 1 s längd som skiljer de olika metoderna åt.
+
+Testpersonerna ombeds ranka kvalitén på den ANDRA metoden jämfört med den FÖRSTA enligt följande skala
+ 3 Mycket bättre
+ 2 Bättre
+ 1 Aningen bättre
+ 0 Ungefär lika
+-1 Aningen sämre
+-2 Sämre
+-3 Mycket sämre
+
+Resultatet sammanställs och presenteras med enheten CMOS (Comparison Mean Opinion Score)
+
+
+========= From the matlab script mos_file_order.m =========
+The files that should be used for testperson 1 are: 1BCDE67H
+The files that should be used for testperson 2 are: A2CDE67H
+The files that should be used for testperson 3 are: ABCDE6GH
+The files that should be used for testperson 4 are: A23D567H
+The files that should be used for testperson 5 are: 1BC456GH
+The files that should be used for testperson 6 are: AB345FGH
+The files that should be used for testperson 7 are: ABC4E6G8
+The files that should be used for testperson 8 are: 1BCD5678
+The files that should be used for testperson 9 are: 1BC4E6G8
+The files that should be used for testperson 10 are: 12C4E678
+The files that should be used for testperson 11 are: 1BCD5678
+The files that should be used for testperson 12 are: AB345F78
+The files that should be used for testperson 13 are: 1BC45678
+The files that should be used for testperson 14 are: 12CDE6GH
+The files that should be used for testperson 15 are: A23D5FGH
+The files that should be used for testperson 16 are: ABC45FG8
+The files that should be used for testperson 17 are: AB3DE6GH
+The files that should be used for testperson 18 are: AB345FGH
+The files that should be used for testperson 19 are: A23D5F78
+The files that should be used for testperson 20 are: 1BC4EFG8
+The files that should be used for testperson 21 are: 1BC4E67H
+The files that should be used for testperson 22 are: 1B34EFG8
+The files that should be used for testperson 23 are: A2C4567H
+The files that should be used for testperson 24 are: 1BC4EFGH
+
+
+
+MAIL
+
+Hej
+
+The Quality of the Second Compared to the Quality of the First is:
+ 3 Much Better
+ 2 Better
+ 1 Slightly Better
+ 0 About the Same
+-1 Slightly Worse
+-2 Worse
+-3 Much Worse

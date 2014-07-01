@@ -1,0 +1,71 @@
+Main programmet kommer sköta initialisering av variabler, mutex och tolkningen av inargument.
+Sedan så skapar huvudtråden N-1 trådar som kör funktionen \texttt{taskManager} som i sin tur kallar på \texttt{mfind\_p}. Huvudtråden kommer sedan själv köra taskManager och när alla trådar är färdiga så städar huvudtråden upp efter processen.
+Det behövs fyra globala variabler för att sköta synkningen mellan trådarna och dom är:
+\texttt{waiting} som anger hur många trådar som inte kör \texttt{mfind\_p}, utan väntar på att en task ska läggas till i taskpoolen; \texttt{blocked} som är en array där varje element anger huruvida den motsvarande tråd väntar på en task eller inte, detta är för att förhindra att en tråd ökar på \texttt{waiting} flera gånger då tråden inte kommer sluta loopa bara för att den inte har någon task; \texttt{quit} som signalerar till trådarna att nu kan dom avsluta funktionen för sökningen är färdig, detta kommer ske när \texttt{waiting} är lika med antalet trådar; och till sist en \texttt{taskpool} som innehåller relativa sökvägar till dom mappar som behövs gås igenom.
+
+%TODO: Beskriv dom mutexar som används
+\def\accessTaskPoolMutex{accessTaskPool}
+\def\getTaskMutex{getTask}
+\def\initThreadIDMutex{initThreadID}
+Programmet använder tre mutexar för att hantera synkroniseringen mellan trådar.
+\texttt{\initThreadIDMutex} används för att ge varje tråd ett unikt id mellan 0 och $N-1$ om $N$ är antalet trådar.
+\texttt{\accessTaskPoolMutex} används för att förhindra att olika trådar försöker komma åt \texttt{taskpoolen} samtidigt vilket kan ge odefinierat beteende.
+\texttt{\getTaskMutex} används för att kunna bestämma när trådarna kan avsluta.
+
+\Subsection{taskManager}
+\begin{enumerate}
+\item \texttt{count = 0}
+\item	Ge tråden ett unikt \texttt{id}.
+\item	Kör loop tills färdig.
+	\begin{enumerate}
+	\item	Lås \getTaskMutex.
+		\begin{enumerate}
+		\item	Lås \accessTaskPoolMutex.
+			\begin{enumerate}
+			\item	\texttt{mapp = getFolderFromTaskPool()}
+			\end{enumerate}
+		\item	Lås upp \accessTaskPoolMutex.
+		\item 	Om \texttt{mapp == NULL} och om \texttt{!blocked[id]}. Öka då på \texttt{waiting} med ett och sätt \texttt{blocked[id] == true}.
+		\item	Om \texttt{mapp != NULL} så sätt \texttt{waiting = 0} till 0 och alla element i \texttt{blocked} till \texttt{false}.
+		\item 	Om \texttt{waiting == N} så sätt \texttt{quit} till \texttt{true}
+		\end{enumerate}
+	\item	Lås upp \getTaskMutex.
+	\item	Om \texttt{mapp == NULL} och \texttt{quit == true}
+		\begin{enumerate}
+		\item	Gå ut ur loopen.
+		\end{enumerate}
+	\item	Om \texttt{mapp == NULL} och \texttt{quit == false}
+		\begin{enumerate}
+		\item	Börja om loopen.
+		\end{enumerate}
+	\item	Om \texttt{mapp != NULL}
+		\begin{enumerate}
+		\item	Kör \texttt{mfind\_p} med \texttt{mapp} som inargument.
+		\item	Öka på \texttt{count} med ett.
+		\end{enumerate}	
+	\end{enumerate}
+\item	Skriv ut tråd-id och \texttt{count}.
+\item	Avsluta funktionen.
+\end{enumerate}
+
+
+\Subsection{mfind\_p}
+Funktionen \texttt{mfind\_p} har som argument en sökväg till en mapp och två variabler som används för att
+bestämma om en fil är den man söker efter.
+\begin{enumerate}
+\item	Öppna \texttt{mapp} på given sökväg.
+\item 	Gå igenom alla filer i mappen.
+	\begin{enumerate}
+	\item	Kolla om filen är den du söker efter. Skriv i så fall ut dess sökväg på standard output.
+	\item 	Om filen är en mapp och inte "." eller "..", gör följande
+		\begin{enumerate}
+		\item	Lås \accessTaskPoolMutex
+			\begin{enumerate}
+			\item	Lägg till ny mapp i \texttt{taskpool}
+			\end{enumerate}
+		\item	Lås upp \accessTaskPoolMutex	
+		\end{enumerate}
+	\end{enumerate}
+\item	Stäng mappen.
+\item 	Avsluta funktionen.
+\end{enumerate}

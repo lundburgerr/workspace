@@ -1,0 +1,9 @@
+
+global P;
+global scaling;
+global 
+
+while 1
+    s_hat = voxNoise
+    
+end

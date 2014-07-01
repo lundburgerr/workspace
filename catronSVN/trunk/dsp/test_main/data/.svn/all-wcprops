@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/catronSvn/!svn/ver/193/trunk/dsp/test_main/data
+END
+noise_startMotorPrat8k.bin
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/catronSvn/!svn/ver/187/trunk/dsp/test_main/data/noise_startMotorPrat8k.bin
+END
+input_startMotorPrat8k.bin
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/catronSvn/!svn/ver/187/trunk/dsp/test_main/data/input_startMotorPrat8k.bin
+END
+noise_startMotorPrat8k.csv
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/catronSvn/!svn/ver/173/trunk/dsp/test_main/data/noise_startMotorPrat8k.csv
+END
+input_startMotorPrat8k20.bin
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/catronSvn/!svn/ver/193/trunk/dsp/test_main/data/input_startMotorPrat8k20.bin
+END
+input_startMotorPrat8k.csv
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/catronSvn/!svn/ver/173/trunk/dsp/test_main/data/input_startMotorPrat8k.csv
+END
+noise_startMotorPrat8k5.bin
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/catronSvn/!svn/ver/193/trunk/dsp/test_main/data/noise_startMotorPrat8k5.bin
+END
